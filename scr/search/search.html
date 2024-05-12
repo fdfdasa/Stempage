@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop Chat Interface</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="desktop">
+        <div class="taskbar expanded" id="taskbar">
+            <div class="user-info">
+                <img src="./img/avt.jpg" alt="Avatar" class="avatar">
+                <span class="username">John Doe</span>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li class="list">
+                        <a href="\index.html">
+                            <!-- <span class="icon"><ion-icon name="home-outline"></ion-icon></span> -->
+                            <span class="text">Home</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#">
+                            <!-- <span class="icon"><ion-icon name="person-outline"></ion-icon></span> -->
+                            <span class="text">Profile</span> 
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#">
+                            <!-- <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></span> -->
+                            <span class="text">Messages</span>
+                        </a>
+                    </li>
+                    <li class="list active">
+                        <a href="\scr\search\search.html">
+                            <!-- <span class="icon"><ion-icon name="search-outline"></ion-icon></span> -->
+                            <span class="text">Search</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#">
+                            <!-- <span class="icon"><ion-icon name="settings-outline"></ion-icon></span> -->
+                            <span class="text">Settings</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="chat-area">
+            <div class="suggestions">
+                <button class="suggestion-btn" onclick="sendSuggestion('Xin chào')">Xin chào</button>
+                <button class="suggestion-btn" onclick="sendSuggestion('bạn có thể làm gì')">Bạn có thể làm gì</button>
+                <button class="suggestion-btn" onclick="sendSuggestion('tạo bài tập')">Tạo bài tập</button>
+            </div>
+            <div class="NBox">
+                <div class="no-message-text">Welcome to STEMPage</div>
+                <input type="text" class="num-input" id="NUM" placeholder="Number" value="1"> 
+                <div class="text-right"></div>
+            </div>
+            <button id="toggle-theme" aria-pressed="false">
+                <svg class="sun" ...>...</svg> <!-- SVG content for the sun -->
+                <svg class="moon" style="display:none;">...</svg> <!-- SVG content for the moon, initially hidden -->
+                <div class="toggle-bg"></div> <!-- Background for the toggle -->
+            </button>
+            
+            <button id="new-chat-button" class="new-chat-button" onclick="createNewChat()">New Chat</button>
+    
+
+            <div class="chat-container user-chat active">
+                <div class="chat user-message-container"></div>
+            </div>
+            <div class="chat-container reply-chat">
+                <div class="chat reply-message-container"></div>
+            </div>
+            <div class="input-area">
+                <input type="text" class="message-input" placeholder="Type your message...">
+                <button class="send-button"><span class="icon"><i class="fas fa-paper-plane"></i></span></button>
+            </div>
+            </div>
+            <div id="wave-overlay"></div>
+        </div>
+
+        
+    
+        <div class="toggle-button" onclick="toggleTaskbar()">
+            <img src="./img/taskbar_icon.jpg" alt="Avatar" class="avatar">
+        </div>
+        <!-- Nút New Chat -->
+       
+        <!-- Nút History -->
+<!-- Nút History -->
+<button id="like-button" class="like-button">Like</button>
+<button id="dislike-button" class="dislike-button"></button>
+
+<button id="history-button" class="history-button" onclick="redirectToHistory()">
+    <i class="fas fa-history"></i>
+</button>
+        <div id="notification" class="notification hidden"></div>
+
+        <!-- Nút History -->
+        <!-- <button id="history-button" class="history-button" onclick="showHistory()">History</button> -->
+
+    </div>
+    <script>
+        function redirectToHistory() {
+            const historyPageUrl = '../history/history.html';
+            window.location.href = historyPageUrl;
+        }
+    </script>
+    
+    <script src="script.js"></script>
+    <script>
+        let list = document.querySelectorAll('.list');
+        function activelink() {
+            list.forEach((item) =>
+                item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+            item.addEventListener('click', activelink))
+    </script>
+</body>
+</html>

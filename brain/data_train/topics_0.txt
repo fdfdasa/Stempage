@@ -1,0 +1,152 @@
+Số lượng người tham gia sự kiện trực tuyến,2019,2027,979,4061
+Tổng doanh số bán hàng trên mạng xã hội,2021,2023,7753440,40392251
+Tổng số lượng phân tử trong mẫu chất,2013,2029,4502223,7195695
+Lãi suất ngân hàng,2017,2025,4,5
+Tổng số lượng phân tử trong mẫu chất,2010,2029,3670266,6845741
+Tỉ lệ người tiêm vắc xin,2018,2022,68,97
+Tổng doanh số bán hàng trên mạng xã hội,2020,2023,8911051,36970348
+Tỉ lệ sinh viên tốt nghiệp,2017,2021,70,88
+Tổng số lượng vi khuẩn trong mẫu đất,2015,2020,352643,708649
+Số lượng câu hỏi đã làm trong bài tập,2021,2021,549,1665
+Tỉ lệ tự nhiên khí CO2 trong không khí,2017,2021,0.04773973354377354,0.0617416962348996
+Điểm trung bình của sinh viên,2019,2022,7,9
+Giá trị của cổ phiếu,2015,2020,101,180
+Giá trị của cổ phiếu,2012,2020,109,265
+Tổng sản lượng nông nghiệp,2017,2020,2113946,9677659
+Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa,2019,2020,34,71
+Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa,2019,2020,43,90
+Số lượng người tham gia nghiên cứu sinh học,2016,2021,341,940
+Tổng số lượng phân tử trong mẫu chất,2014,2029,1678204,7750441
+Số lượng đồ uống bán ra từ cửa hàng,2017,2022,4695,5265
+Tỉ lệ sinh viên được nhận học bổng,2018,2021,18,20
+Tổng doanh số bán hàng trên mạng xã hội,2019,2026,6870624,26521008
+Tổng doanh số bán hàng,2019,2020,3911622,13117171
+Giá trị nhập khẩu thực phẩm,2010,2020,45867695,96591082
+Số lượng sách được mượn từ thư viện,2020,2020,1707,9404
+Số lượng sinh vật mới được phát hiện,2018,2020,70,287
+Số lượng người dùng mạng xã hội,2015,2020,3623,13415
+Điểm trung bình của học sinh,2017,2022,8,8
+Lãi suất ngân hàng,2012,2025,2,4
+Tổng doanh số bán hàng trên mạng xã hội,2019,2024,8639751,33678879
+Số lượng khách du lịch,2017,2020,46037,98706
+Điểm trung bình của học sinh,2017,2022,7,8
+Số lượng thiết bị điện tử bán ra,2020,2022,92357,190041
+Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa,2016,2020,41,71
+Số lượng đồ uống bán ra từ cửa hàng,2017,2022,2193,6674
+Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa,2017,2020,44,69
+Thời gian học trung bình hàng ngày,2021,2023,2,6
+Số lượng câu hỏi đã làm trong bài tập,2017,2021,1437,2271
+Điểm trung bình của học sinh,2018,2022,8,10
+Số lượng người tham gia khóa học trực tuyến,2018,2022,3270,6109
+Điểm trung bình của sinh viên,2018,2022,8,10
+Tổng doanh số bán hàng,2015,2020,8937049,11011841
+Số lượng đơn hàng mua sắm trực tuyến,2017,2023,51065,309413
+Số lượng loại thuốc mới được phát triển,2019,2020,24,82
+Tỉ lệ sử dụng phần mềm di động,2013,2030,27.331354765237386,66.2415488172287
+Tỉ lệ sinh viên được nhận học bổng,2019,2021,10,25
+Số lượng học sinh đậu kỳ thi tốt nghiệp,2020,2020,809,1824
+Số lượng người tham gia nghiên cứu sinh học,2018,2021,310,1077
+Thời gian học trung bình hàng ngày,2022,2023,3,5
+Tổng sản lượng nông nghiệp,2013,2020,1356953,8464830
+Tổng sản lượng nông nghiệp,2011,2020,4841103,9575548
+Tổng doanh thu công ty,2018,2040,2524000000,5179659
+Số lượng người tham gia nghiên cứu sinh học,2020,2021,212,812
+Tỉ lệ người tiêu thụ rau quả hàng ngày,2019,2020,57,90
+Tỉ lệ sinh viên được nhận học bổng,2020,2021,14,25
+Tổng số xe đăng ký mới,2018,2020,8112,28361
+Điểm trung bình của sinh viên,2020,2022,9,10
+Tỉ lệ sinh viên được nhận học bổng,2020,2021,17,27
+Số lượng người tham gia sự kiện trực tuyến,2015,2032,347,4806
+Giá trị nhập khẩu thực phẩm,2011,2020,45155232,80517641
+Số lượng đơn hàng mua sắm trực tuyến,2020,2024,92558,229530
+Số lượng khách du lịch,2016,2020,33887,64944
+Độ sáng trung bình của đèn đường,2019,2022,59,127
+Tổng công suất sản xuất điện năng,2018,2020,47807,64389
+Số lượng khách du lịch,2020,2020,48142,87151
+Lãi suất ngân hàng,2010,2025,3,5
+Tỉ lệ người tiêm vắc xin,2022,2022,63,99
+Điểm trung bình của học sinh,2018,2022,6,8
+Tổng sản lượng nông nghiệp,2012,2020,2183792,7056483
+Tổng doanh số của nhà hàng,2016,2020,1433515,3136322
+Số lượng câu hỏi đã làm trong bài tập,2020,2021,587,2264
+Số lượng sinh vật mới được phát hiện,2011,2020,136,204
+Số lượng đơn hàng mua sắm trực tuyến,2018,2025,62830,224878
+Tổng doanh số của nhà hàng,2015,2020,838742,2329786
+Doanh thu từ bán hàng trực tuyến,2022,2022,1844522,7331972
+Số lượng câu hỏi đã làm trong bài tập,2018,2021,658,2094
+Tổng sản lượng nông nghiệp,2014,2020,4012166,8580020
+Số lượng loại thuốc mới được phát triển,2010,2020,50,57
+Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa,2019,2020,55,80
+Số lượng khách du lịch,2020,2020,12672,72646
+Tỉ lệ sử dụng internet hàng ngày,2011,2030,49.119576304545134,80.26224413255268
+Doanh thu từ bán hàng trực tuyến,2018,2022,1298120,6375628
+Số lượng đồ uống bán ra từ cửa hàng,2019,2022,3995,7283
+Số lượng đồ uống bán ra từ cửa hàng,2017,2022,1350,8240
+Điểm trung bình của học sinh,2020,2022,8,8
+Tỉ lệ tự nhiên khí CO2 trong không khí,2018,2021,0.044068209085114496,0.05916100680897007
+Điểm trung bình của học sinh,2021,2022,7,9
+Số lượng giờ ôn thi mỗi tuần,2016,2020,8,10
+Tổng doanh số bán hàng trên mạng xã hội,2018,2025,9273031,35009701
+Tỉ lệ người tiêu thụ rau quả hàng ngày,2018,2020,60,76
+Điểm trung bình của học sinh,2020,2022,8,8
+Độ sáng trung bình của đèn đường,2017,2022,56,143
+Tổng số lượng vi khuẩn trong mẫu đất,2019,2020,497055,533825
+Tỉ lệ người tiêu thụ rau quả hàng ngày,2019,2020,64,78
+Số lượng người tham gia sự kiện trực tuyến,2025,2035,858,3335
+Tổng doanh số bán hàng,2020,2020,2414233,12229702
+Tỉ lệ tự nhiên khí CO2 trong không khí,2020,2021,0.04412550146814324,0.06827531460796242
+Số lượng học sinh đậu kỳ thi tốt nghiệp,2019,2020,1019,1741
+Tổng doanh số bán hàng trên mạng xã hội,2021,2024,6923579,49643062
+Tỉ lệ người tiêm vắc xin,2021,2022,80,89
+Điểm trung bình của sinh viên,2019,2022,7,9
+Số lượng câu hỏi đã làm trong bài tập,2016,2021,1112,1915
+Điểm trung bình của sinh viên,2017,2022,7,10
+Số lượng giờ ôn thi mỗi tuần,2017,2020,6,15
+Số lượng câu hỏi đã làm trong bài tập,2019,2021,1353,2432
+Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa,2015,2020,53,85
+Số lượng giờ ôn thi mỗi tuần,2019,2020,7,12
+Số lượng câu hỏi đã làm trong bài tập,2016,2021,1037,1582
+Tỉ lệ người tiêu thụ rau quả hàng ngày,2015,2020,63,76
+Số lượng đồ uống bán ra từ cửa hàng,2017,2022,3217,8041
+Tỉ lệ sinh viên tốt nghiệp,2019,2021,58,90
+Số lượng khách du lịch,2018,2020,39474,50742
+Tổng số xe đăng ký mới,2017,2020,5466,24565
+Tỉ lệ tự nhiên khí CO2 trong không khí,2015,2021,0.048958773648304546,0.05589534429520649
+Thời gian học trung bình hàng ngày,2022,2023,4,5
+Thời gian học trung bình hàng ngày,2019,2023,3,6
+Tỉ lệ sinh viên được nhận học bổng,2020,2021,14,28
+Số lượng sinh vật mới được phát hiện,2010,2020,75,289
+Tỉ lệ sinh viên được nhận học bổng,2020,2021,14,20
+Tỉ lệ sử dụng internet hàng ngày,2017,2027,67.22008865201369,88.89765018859964
+Số lượng đồ uống bán ra từ cửa hàng,2018,2022,4448,7443
+Điểm trung bình của sinh viên,2021,2022,7,9
+Số lượng đơn hàng mua sắm trực tuyến,2019,2025,94881,271458
+Số lượng học sinh đậu kỳ thi tốt nghiệp,2018,2020,995,1244
+Tỉ lệ sinh viên được nhận học bổng,2019,2021,19,23
+Tổng số lượng phân tử trong mẫu chất,2016,2029,2831906,7013585
+Tỉ lệ người tiêu thụ rau quả hàng ngày,2018,2020,56,81
+Số lượng câu hỏi đã làm trong bài tập,2021,2021,737,2533
+Tỉ lệ người tiêm vắc xin,2018,2022,74,87
+Số lượng người tham gia nghiên cứu sinh học,2018,2021,202,1566
+Số lượng khẩu phần ăn hàng ngày,2021,2023,4,7
+Số lượng người tham gia khóa học trực tuyến,2020,2022,3165,6248
+Số lượng đồ uống bán ra từ cửa hàng,2018,2022,1307,8315
+Tổng doanh thu công ty,2017,2037,1176000000,3467654
+Tổng doanh thu công ty,2014,2034,1280500000,4585074
+Điểm trung bình của sinh viên,2021,2022,8,10
+Tỉ lệ người tiêu thụ rau quả hàng ngày,2016,2020,61,85
+Lãi suất ngân hàng,2016,2025,2,4
+Số lượng người tham gia sự kiện trực tuyến,2019,2029,269,2742
+Điểm trung bình của sinh viên,2020,2022,7,10
+Thời gian học trung bình hàng ngày,2020,2023,4,4
+Tổng số lượng phân tử trong mẫu chất,2017,2029,3417801,6404021
+Số lượng người tham gia nghiên cứu sinh học,2016,2021,736,1554
+Số lượng học sinh đậu kỳ thi tốt nghiệp,2018,2020,884,1453
+Lãi suất ngân hàng,2021,2025,3,5
+Số lượng đồ uống bán ra từ cửa hàng,2022,2022,4556,5940
+Số lượng người tham gia nghiên cứu sinh học,2021,2021,457,1432
+Tổng số lượng phân tử trong mẫu chất,2020,2029,4424576,5842140
+Số lượng người tham gia khóa học trực tuyến,2021,2022,2629,7795
+Tổng số lượng vi khuẩn trong mẫu đất,2016,2020,390439,619326
+Tổng doanh thu công ty,2011,2043,2276500000,1094365
+Tổng số lượng phân tử trong mẫu chất,2018,2029,1400936,9167775

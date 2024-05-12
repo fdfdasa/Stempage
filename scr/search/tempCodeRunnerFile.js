@@ -1,0 +1,1 @@
+ ["Lãi suất ngân hàng", Math.floor(Math.random() * (2022 - 2010 + 1)) + 2010, 2025, Math.floor(Math.random() * (4 - 2 + 1)) + 2, Math.floor(Math.random() * (5 - 4 + 1)) + 4, "%"]

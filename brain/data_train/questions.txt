@@ -1,0 +1,597 @@
+
+    "Số lượng người tham gia sự kiện trực tuyến", "Từ năm 2019 đến năm 2027, Số lượng người tham gia sự kiện trực tuyến (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng người tham gia sự kiện trực tuyến, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Số lượng người tham gia sự kiện trực tuyến là 979người, và vào năm 2027, Số lượng người tham gia sự kiện trực tuyến là 4061người."
+    
+
+
+    "Tổng doanh số bán hàng trên mạng xã hội", "Từ năm 2021 đến năm 2023, Tổng doanh số bán hàng trên mạng xã hội (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng doanh số bán hàng trên mạng xã hội, t là số năm tính từ năm 2021. Biết rằng vào năm 2021, Tổng doanh số bán hàng trên mạng xã hội là 7753440đ, và vào năm 2023, Tổng doanh số bán hàng trên mạng xã hội là 40392251đ."
+    
+
+
+    "Tổng số lượng phân tử trong mẫu chất", "Từ năm 2013 đến năm 2029, Tổng số lượng phân tử trong mẫu chất (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng số lượng phân tử trong mẫu chất, t là số năm tính từ năm 2013. Biết rằng vào năm 2013, Tổng số lượng phân tử trong mẫu chất là 4502223phân tử, và vào năm 2029, Tổng số lượng phân tử trong mẫu chất là 7195695phân tử."
+    
+    "Lãi suất ngân hàng", "Từ năm 2017 đến năm 2025, Lãi suất ngân hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Lãi suất ngân hàng, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Lãi suất ngân hàng là 4%, và vào năm 2025, Lãi suất ngân hàng là 5%."
+    "Tổng số lượng phân tử trong mẫu chất", "Từ năm 2010 đến năm 2029, Tổng số lượng phân tử trong mẫu chất (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng số lượng phân tử trong mẫu chất, t là số năm tính từ năm 2010. Biết rằng vào năm 2010, Tổng số lượng phân tử trong mẫu chất là 3670266phân tử, và vào năm 2029, Tổng số lượng phân tử trong mẫu chất là 6845741phân tử."
+    "Tỉ lệ người tiêm vắc xin", "Từ năm 2018 đến năm 2022, Tỉ lệ người tiêm vắc xin (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ người tiêm vắc xin, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Tỉ lệ người tiêm vắc xin là 68%, và vào năm 2022, Tỉ lệ người tiêm vắc xin là 97%."
+    "Tổng doanh số bán hàng trên mạng xã hội", "Từ năm 2020 đến năm 2023, Tổng doanh số bán hàng trên mạng xã hội (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng doanh số bán hàng trên mạng xã hội, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Tổng doanh số bán hàng trên mạng xã hội là 8911051đ, và vào năm 2023, Tổng doanh số bán hàng trên mạng xã hội là 36970348đ."
+    
+
+
+    "Tỉ lệ sinh viên tốt nghiệp", "Từ năm 2017 đến năm 2021, Tỉ lệ sinh viên tốt nghiệp (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sinh viên tốt nghiệp, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Tỉ lệ sinh viên tốt nghiệp là 70%, và vào năm 2021, Tỉ lệ sinh viên tốt nghiệp là 88%."
+    
+
+
+    "Tổng số lượng vi khuẩn trong mẫu đất", "Từ năm 2015 đến năm 2020, Tổng số lượng vi khuẩn trong mẫu đất (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng số lượng vi khuẩn trong mẫu đất, t là số năm tính từ năm 2015. Biết rằng vào năm 2015, Tổng số lượng vi khuẩn trong mẫu đất là 352643vi khuẩn, và vào năm 2020, Tổng số lượng vi khuẩn trong mẫu đất là 708649vi khuẩn."
+    
+
+
+    "Số lượng câu hỏi đã làm trong bài tập", "Từ năm 2021 đến năm 2021, Số lượng câu hỏi đã làm trong bài tập (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng câu hỏi đã làm trong bài tập, t là số năm tính từ năm 2021. Biết rằng vào năm 2021, Số lượng câu hỏi đã làm trong bài tập là 549câu, và vào năm 2021, Số lượng câu hỏi đã làm trong bài tập là 1665câu."
+    
+
+
+    "Tỉ lệ tự nhiên khí CO2 trong không khí", "Từ năm 2017 đến năm 2021, Tỉ lệ tự nhiên khí CO2 trong không khí (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ tự nhiên khí CO2 trong không khí, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Tỉ lệ tự nhiên khí CO2 trong không khí là 0.04773973354377354%, và vào năm 2021, Tỉ lệ tự nhiên khí CO2 trong không khí là 0.0617416962348996%."
+    
+
+
+    "Điểm trung bình của sinh viên", "Từ năm 2019 đến năm 2022, Điểm trung bình của sinh viên (gọi là y) được tính theo công thức y = at + b, trong đó y là Điểm trung bình của sinh viên, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Điểm trung bình của sinh viên là 7, và vào năm 2022, Điểm trung bình của sinh viên là 9."
+    
+
+
+    "Giá trị của cổ phiếu", "Từ năm 2015 đến năm 2020, Giá trị của cổ phiếu (gọi là y) được tính theo công thức y = at + b, trong đó y là Giá trị của cổ phiếu, t là số năm tính từ năm 2015. Biết rằng vào năm 2015, Giá trị của cổ phiếu là 101đồng, và vào năm 2020, Giá trị của cổ phiếu là 180đồng."
+    
+
+
+    "Giá trị của cổ phiếu", "Từ năm 2012 đến năm 2020, Giá trị của cổ phiếu (gọi là y) được tính theo công thức y = at + b, trong đó y là Giá trị của cổ phiếu, t là số năm tính từ năm 2012. Biết rằng vào năm 2012, Giá trị của cổ phiếu là 109đồng, và vào năm 2020, Giá trị của cổ phiếu là 265đồng."
+    
+
+
+    "Tổng sản lượng nông nghiệp", "Từ năm 2017 đến năm 2020, Tổng sản lượng nông nghiệp (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng sản lượng nông nghiệp, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Tổng sản lượng nông nghiệp là 2113946tấn, và vào năm 2020, Tổng sản lượng nông nghiệp là 9677659tấn."
+    
+
+
+    "Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa", "Từ năm 2019 đến năm 2020, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa là 34%, và vào năm 2020, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa là 71%."
+    
+
+
+    "Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa", "Từ năm 2019 đến năm 2020, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa là 43%, và vào năm 2020, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa là 90%."
+    
+
+
+    "Số lượng người tham gia nghiên cứu sinh học", "Từ năm 2016 đến năm 2021, Số lượng người tham gia nghiên cứu sinh học (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng người tham gia nghiên cứu sinh học, t là số năm tính từ năm 2016. Biết rằng vào năm 2016, Số lượng người tham gia nghiên cứu sinh học là 341người, và vào năm 2021, Số lượng người tham gia nghiên cứu sinh học là 940người."
+    
+
+
+    "Tổng số lượng phân tử trong mẫu chất", "Từ năm 2014 đến năm 2029, Tổng số lượng phân tử trong mẫu chất (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng số lượng phân tử trong mẫu chất, t là số năm tính từ năm 2014. Biết rằng vào năm 2014, Tổng số lượng phân tử trong mẫu chất là 1678204phân tử, và vào năm 2029, Tổng số lượng phân tử trong mẫu chất là 7750441phân tử."
+    
+
+
+    "Số lượng đồ uống bán ra từ cửa hàng", "Từ năm 2017 đến năm 2022, Số lượng đồ uống bán ra từ cửa hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng đồ uống bán ra từ cửa hàng, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Số lượng đồ uống bán ra từ cửa hàng là 4695ly, và vào năm 2022, Số lượng đồ uống bán ra từ cửa hàng là 5265ly."
+    
+
+
+    "Tỉ lệ sinh viên được nhận học bổng", "Từ năm 2018 đến năm 2021, Tỉ lệ sinh viên được nhận học bổng (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sinh viên được nhận học bổng, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Tỉ lệ sinh viên được nhận học bổng là 18%, và vào năm 2021, Tỉ lệ sinh viên được nhận học bổng là 20%."
+    
+
+
+    "Tổng doanh số bán hàng trên mạng xã hội", "Từ năm 2019 đến năm 2026, Tổng doanh số bán hàng trên mạng xã hội (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng doanh số bán hàng trên mạng xã hội, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Tổng doanh số bán hàng trên mạng xã hội là 6870624đ, và vào năm 2026, Tổng doanh số bán hàng trên mạng xã hội là 26521008đ."
+    
+
+
+    "Tổng doanh số bán hàng", "Từ năm 2019 đến năm 2020, Tổng doanh số bán hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng doanh số bán hàng, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Tổng doanh số bán hàng là 3911622đ, và vào năm 2020, Tổng doanh số bán hàng là 13117171đ."
+    
+
+
+    "Giá trị nhập khẩu thực phẩm", "Từ năm 2010 đến năm 2020, Giá trị nhập khẩu thực phẩm (gọi là y) được tính theo công thức y = at + b, trong đó y là Giá trị nhập khẩu thực phẩm, t là số năm tính từ năm 2010. Biết rằng vào năm 2010, Giá trị nhập khẩu thực phẩm là 45867695đ, và vào năm 2020, Giá trị nhập khẩu thực phẩm là 96591082đ."
+    
+
+
+    "Số lượng sách được mượn từ thư viện", "Từ năm 2020 đến năm 2020, Số lượng sách được mượn từ thư viện (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng sách được mượn từ thư viện, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Số lượng sách được mượn từ thư viện là 1707quyển, và vào năm 2020, Số lượng sách được mượn từ thư viện là 9404quyển."
+    
+
+
+    "Số lượng sinh vật mới được phát hiện", "Từ năm 2018 đến năm 2020, Số lượng sinh vật mới được phát hiện (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng sinh vật mới được phát hiện, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Số lượng sinh vật mới được phát hiện là 70loài, và vào năm 2020, Số lượng sinh vật mới được phát hiện là 287loài."
+    
+
+
+    "Số lượng người dùng mạng xã hội", "Từ năm 2015 đến năm 2020, Số lượng người dùng mạng xã hội (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng người dùng mạng xã hội, t là số năm tính từ năm 2015. Biết rằng vào năm 2015, Số lượng người dùng mạng xã hội là 3623người, và vào năm 2020, Số lượng người dùng mạng xã hội là 13415người."
+    
+
+
+    "Điểm trung bình của học sinh", "Từ năm 2017 đến năm 2022, Điểm trung bình của học sinh (gọi là y) được tính theo công thức y = at + b, trong đó y là Điểm trung bình của học sinh, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Điểm trung bình của học sinh là 8, và vào năm 2022, Điểm trung bình của học sinh là 8."
+    
+
+
+    "Lãi suất ngân hàng", "Từ năm 2012 đến năm 2025, Lãi suất ngân hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Lãi suất ngân hàng, t là số năm tính từ năm 2012. Biết rằng vào năm 2012, Lãi suất ngân hàng là 2%, và vào năm 2025, Lãi suất ngân hàng là 4%."
+    
+
+
+    "Tổng doanh số bán hàng trên mạng xã hội", "Từ năm 2019 đến năm 2024, Tổng doanh số bán hàng trên mạng xã hội (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng doanh số bán hàng trên mạng xã hội, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Tổng doanh số bán hàng trên mạng xã hội là 8639751đ, và vào năm 2024, Tổng doanh số bán hàng trên mạng xã hội là 33678879đ."
+    
+
+
+    "Số lượng khách du lịch", "Từ năm 2017 đến năm 2020, Số lượng khách du lịch (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng khách du lịch, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Số lượng khách du lịch là 46037người, và vào năm 2020, Số lượng khách du lịch là 98706người."
+    
+
+
+    "Điểm trung bình của học sinh", "Từ năm 2017 đến năm 2022, Điểm trung bình của học sinh (gọi là y) được tính theo công thức y = at + b, trong đó y là Điểm trung bình của học sinh, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Điểm trung bình của học sinh là 7, và vào năm 2022, Điểm trung bình của học sinh là 8."
+    
+
+
+    "Số lượng thiết bị điện tử bán ra", "Từ năm 2020 đến năm 2022, Số lượng thiết bị điện tử bán ra (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng thiết bị điện tử bán ra, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Số lượng thiết bị điện tử bán ra là 92357cái, và vào năm 2022, Số lượng thiết bị điện tử bán ra là 190041cái."
+    
+
+
+    "Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa", "Từ năm 2016 đến năm 2020, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa, t là số năm tính từ năm 2016. Biết rằng vào năm 2016, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa là 41%, và vào năm 2020, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa là 71%."
+    
+
+
+    "Số lượng đồ uống bán ra từ cửa hàng", "Từ năm 2017 đến năm 2022, Số lượng đồ uống bán ra từ cửa hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng đồ uống bán ra từ cửa hàng, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Số lượng đồ uống bán ra từ cửa hàng là 2193ly, và vào năm 2022, Số lượng đồ uống bán ra từ cửa hàng là 6674ly."
+    
+
+
+    "Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa", "Từ năm 2017 đến năm 2020, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa là 44%, và vào năm 2020, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa là 69%."
+    
+
+
+    "Thời gian học trung bình hàng ngày", "Từ năm 2021 đến năm 2023, Thời gian học trung bình hàng ngày (gọi là y) được tính theo công thức y = at + b, trong đó y là Thời gian học trung bình hàng ngày, t là số năm tính từ năm 2021. Biết rằng vào năm 2021, Thời gian học trung bình hàng ngày là 2giờ, và vào năm 2023, Thời gian học trung bình hàng ngày là 6giờ."
+    
+
+
+    "Số lượng câu hỏi đã làm trong bài tập", "Từ năm 2017 đến năm 2021, Số lượng câu hỏi đã làm trong bài tập (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng câu hỏi đã làm trong bài tập, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Số lượng câu hỏi đã làm trong bài tập là 1437câu, và vào năm 2021, Số lượng câu hỏi đã làm trong bài tập là 2271câu."
+    
+
+
+    "Điểm trung bình của học sinh", "Từ năm 2018 đến năm 2022, Điểm trung bình của học sinh (gọi là y) được tính theo công thức y = at + b, trong đó y là Điểm trung bình của học sinh, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Điểm trung bình của học sinh là 8, và vào năm 2022, Điểm trung bình của học sinh là 10."
+    
+
+
+    "Số lượng người tham gia khóa học trực tuyến", "Từ năm 2018 đến năm 2022, Số lượng người tham gia khóa học trực tuyến (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng người tham gia khóa học trực tuyến, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Số lượng người tham gia khóa học trực tuyến là 3270người, và vào năm 2022, Số lượng người tham gia khóa học trực tuyến là 6109người."
+    
+
+
+    "Điểm trung bình của sinh viên", "Từ năm 2018 đến năm 2022, Điểm trung bình của sinh viên (gọi là y) được tính theo công thức y = at + b, trong đó y là Điểm trung bình của sinh viên, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Điểm trung bình của sinh viên là 8, và vào năm 2022, Điểm trung bình của sinh viên là 10."
+    
+
+
+    "Tổng doanh số bán hàng", "Từ năm 2015 đến năm 2020, Tổng doanh số bán hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng doanh số bán hàng, t là số năm tính từ năm 2015. Biết rằng vào năm 2015, Tổng doanh số bán hàng là 8937049đ, và vào năm 2020, Tổng doanh số bán hàng là 11011841đ."
+    
+
+
+    "Số lượng đơn hàng mua sắm trực tuyến", "Từ năm 2017 đến năm 2023, Số lượng đơn hàng mua sắm trực tuyến (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng đơn hàng mua sắm trực tuyến, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Số lượng đơn hàng mua sắm trực tuyến là 51065đơn hàng, và vào năm 2023, Số lượng đơn hàng mua sắm trực tuyến là 309413đơn hàng."
+    
+
+
+    "Số lượng loại thuốc mới được phát triển", "Từ năm 2019 đến năm 2020, Số lượng loại thuốc mới được phát triển (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng loại thuốc mới được phát triển, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Số lượng loại thuốc mới được phát triển là 24loại, và vào năm 2020, Số lượng loại thuốc mới được phát triển là 82loại."
+    
+
+
+    "Tỉ lệ sử dụng phần mềm di động", "Từ năm 2013 đến năm 2030, Tỉ lệ sử dụng phần mềm di động (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sử dụng phần mềm di động, t là số năm tính từ năm 2013. Biết rằng vào năm 2013, Tỉ lệ sử dụng phần mềm di động là 27.331354765237386%, và vào năm 2030, Tỉ lệ sử dụng phần mềm di động là 66.2415488172287%."
+    
+
+
+    "Tỉ lệ sinh viên được nhận học bổng", "Từ năm 2019 đến năm 2021, Tỉ lệ sinh viên được nhận học bổng (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sinh viên được nhận học bổng, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Tỉ lệ sinh viên được nhận học bổng là 10%, và vào năm 2021, Tỉ lệ sinh viên được nhận học bổng là 25%."
+    
+
+
+    "Số lượng học sinh đậu kỳ thi tốt nghiệp", "Từ năm 2020 đến năm 2020, Số lượng học sinh đậu kỳ thi tốt nghiệp (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng học sinh đậu kỳ thi tốt nghiệp, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Số lượng học sinh đậu kỳ thi tốt nghiệp là 809học sinh, và vào năm 2020, Số lượng học sinh đậu kỳ thi tốt nghiệp là 1824học sinh."
+    
+
+
+    "Số lượng người tham gia nghiên cứu sinh học", "Từ năm 2018 đến năm 2021, Số lượng người tham gia nghiên cứu sinh học (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng người tham gia nghiên cứu sinh học, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Số lượng người tham gia nghiên cứu sinh học là 310người, và vào năm 2021, Số lượng người tham gia nghiên cứu sinh học là 1077người."
+    
+
+
+    "Thời gian học trung bình hàng ngày", "Từ năm 2022 đến năm 2023, Thời gian học trung bình hàng ngày (gọi là y) được tính theo công thức y = at + b, trong đó y là Thời gian học trung bình hàng ngày, t là số năm tính từ năm 2022. Biết rằng vào năm 2022, Thời gian học trung bình hàng ngày là 3giờ, và vào năm 2023, Thời gian học trung bình hàng ngày là 5giờ."
+    
+
+
+    "Tổng sản lượng nông nghiệp", "Từ năm 2013 đến năm 2020, Tổng sản lượng nông nghiệp (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng sản lượng nông nghiệp, t là số năm tính từ năm 2013. Biết rằng vào năm 2013, Tổng sản lượng nông nghiệp là 1356953tấn, và vào năm 2020, Tổng sản lượng nông nghiệp là 8464830tấn."
+    
+
+
+    "Tổng sản lượng nông nghiệp", "Từ năm 2011 đến năm 2020, Tổng sản lượng nông nghiệp (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng sản lượng nông nghiệp, t là số năm tính từ năm 2011. Biết rằng vào năm 2011, Tổng sản lượng nông nghiệp là 4841103tấn, và vào năm 2020, Tổng sản lượng nông nghiệp là 9575548tấn."
+    
+
+
+    "Tổng doanh thu công ty", "Từ năm 2018 đến năm 2040, Tổng doanh thu công ty (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng doanh thu công ty, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Tổng doanh thu công ty là 2524000000đ, và vào năm 2040, Tổng doanh thu công ty là 5179659đ."
+    
+
+
+    "Số lượng người tham gia nghiên cứu sinh học", "Từ năm 2020 đến năm 2021, Số lượng người tham gia nghiên cứu sinh học (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng người tham gia nghiên cứu sinh học, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Số lượng người tham gia nghiên cứu sinh học là 212người, và vào năm 2021, Số lượng người tham gia nghiên cứu sinh học là 812người."
+    
+
+
+    "Tỉ lệ người tiêu thụ rau quả hàng ngày", "Từ năm 2019 đến năm 2020, Tỉ lệ người tiêu thụ rau quả hàng ngày (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ người tiêu thụ rau quả hàng ngày, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Tỉ lệ người tiêu thụ rau quả hàng ngày là 57%, và vào năm 2020, Tỉ lệ người tiêu thụ rau quả hàng ngày là 90%."
+    
+
+
+    "Tỉ lệ sinh viên được nhận học bổng", "Từ năm 2020 đến năm 2021, Tỉ lệ sinh viên được nhận học bổng (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sinh viên được nhận học bổng, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Tỉ lệ sinh viên được nhận học bổng là 14%, và vào năm 2021, Tỉ lệ sinh viên được nhận học bổng là 25%."
+    
+
+
+    "Tổng số xe đăng ký mới", "Từ năm 2018 đến năm 2020, Tổng số xe đăng ký mới (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng số xe đăng ký mới, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Tổng số xe đăng ký mới là 8112xe, và vào năm 2020, Tổng số xe đăng ký mới là 28361xe."
+    
+
+
+    "Điểm trung bình của sinh viên", "Từ năm 2020 đến năm 2022, Điểm trung bình của sinh viên (gọi là y) được tính theo công thức y = at + b, trong đó y là Điểm trung bình của sinh viên, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Điểm trung bình của sinh viên là 9, và vào năm 2022, Điểm trung bình của sinh viên là 10."
+    
+
+
+    "Tỉ lệ sinh viên được nhận học bổng", "Từ năm 2020 đến năm 2021, Tỉ lệ sinh viên được nhận học bổng (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sinh viên được nhận học bổng, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Tỉ lệ sinh viên được nhận học bổng là 17%, và vào năm 2021, Tỉ lệ sinh viên được nhận học bổng là 27%."
+    
+
+
+    "Số lượng người tham gia sự kiện trực tuyến", "Từ năm 2015 đến năm 2032, Số lượng người tham gia sự kiện trực tuyến (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng người tham gia sự kiện trực tuyến, t là số năm tính từ năm 2015. Biết rằng vào năm 2015, Số lượng người tham gia sự kiện trực tuyến là 347người, và vào năm 2032, Số lượng người tham gia sự kiện trực tuyến là 4806người."
+    
+
+
+    "Giá trị nhập khẩu thực phẩm", "Từ năm 2011 đến năm 2020, Giá trị nhập khẩu thực phẩm (gọi là y) được tính theo công thức y = at + b, trong đó y là Giá trị nhập khẩu thực phẩm, t là số năm tính từ năm 2011. Biết rằng vào năm 2011, Giá trị nhập khẩu thực phẩm là 45155232đ, và vào năm 2020, Giá trị nhập khẩu thực phẩm là 80517641đ."
+    
+
+
+    "Số lượng đơn hàng mua sắm trực tuyến", "Từ năm 2020 đến năm 2024, Số lượng đơn hàng mua sắm trực tuyến (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng đơn hàng mua sắm trực tuyến, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Số lượng đơn hàng mua sắm trực tuyến là 92558đơn hàng, và vào năm 2024, Số lượng đơn hàng mua sắm trực tuyến là 229530đơn hàng."
+    
+
+
+    "Số lượng khách du lịch", "Từ năm 2016 đến năm 2020, Số lượng khách du lịch (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng khách du lịch, t là số năm tính từ năm 2016. Biết rằng vào năm 2016, Số lượng khách du lịch là 33887người, và vào năm 2020, Số lượng khách du lịch là 64944người."
+    
+
+
+    "Độ sáng trung bình của đèn đường", "Từ năm 2019 đến năm 2022, Độ sáng trung bình của đèn đường (gọi là y) được tính theo công thức y = at + b, trong đó y là Độ sáng trung bình của đèn đường, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Độ sáng trung bình của đèn đường là 59lux, và vào năm 2022, Độ sáng trung bình của đèn đường là 127lux."
+    
+
+
+    "Tổng công suất sản xuất điện năng", "Từ năm 2018 đến năm 2020, Tổng công suất sản xuất điện năng (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng công suất sản xuất điện năng, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Tổng công suất sản xuất điện năng là 47807MW, và vào năm 2020, Tổng công suất sản xuất điện năng là 64389MW."
+    
+
+
+    "Số lượng khách du lịch", "Từ năm 2020 đến năm 2020, Số lượng khách du lịch (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng khách du lịch, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Số lượng khách du lịch là 48142người, và vào năm 2020, Số lượng khách du lịch là 87151người."
+    
+
+
+    "Lãi suất ngân hàng", "Từ năm 2010 đến năm 2025, Lãi suất ngân hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Lãi suất ngân hàng, t là số năm tính từ năm 2010. Biết rằng vào năm 2010, Lãi suất ngân hàng là 3%, và vào năm 2025, Lãi suất ngân hàng là 5%."
+    
+
+
+    "Tỉ lệ người tiêm vắc xin", "Từ năm 2022 đến năm 2022, Tỉ lệ người tiêm vắc xin (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ người tiêm vắc xin, t là số năm tính từ năm 2022. Biết rằng vào năm 2022, Tỉ lệ người tiêm vắc xin là 63%, và vào năm 2022, Tỉ lệ người tiêm vắc xin là 99%."
+    
+
+
+    "Điểm trung bình của học sinh", "Từ năm 2018 đến năm 2022, Điểm trung bình của học sinh (gọi là y) được tính theo công thức y = at + b, trong đó y là Điểm trung bình của học sinh, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Điểm trung bình của học sinh là 6, và vào năm 2022, Điểm trung bình của học sinh là 8."
+    
+
+
+    "Tổng sản lượng nông nghiệp", "Từ năm 2012 đến năm 2020, Tổng sản lượng nông nghiệp (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng sản lượng nông nghiệp, t là số năm tính từ năm 2012. Biết rằng vào năm 2012, Tổng sản lượng nông nghiệp là 2183792tấn, và vào năm 2020, Tổng sản lượng nông nghiệp là 7056483tấn."
+    
+
+
+    "Tổng doanh số của nhà hàng", "Từ năm 2016 đến năm 2020, Tổng doanh số của nhà hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng doanh số của nhà hàng, t là số năm tính từ năm 2016. Biết rằng vào năm 2016, Tổng doanh số của nhà hàng là 1433515đ, và vào năm 2020, Tổng doanh số của nhà hàng là 3136322đ."
+    
+
+
+    "Số lượng câu hỏi đã làm trong bài tập", "Từ năm 2020 đến năm 2021, Số lượng câu hỏi đã làm trong bài tập (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng câu hỏi đã làm trong bài tập, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Số lượng câu hỏi đã làm trong bài tập là 587câu, và vào năm 2021, Số lượng câu hỏi đã làm trong bài tập là 2264câu."
+    
+
+
+    "Số lượng sinh vật mới được phát hiện", "Từ năm 2011 đến năm 2020, Số lượng sinh vật mới được phát hiện (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng sinh vật mới được phát hiện, t là số năm tính từ năm 2011. Biết rằng vào năm 2011, Số lượng sinh vật mới được phát hiện là 136loài, và vào năm 2020, Số lượng sinh vật mới được phát hiện là 204loài."
+    
+
+
+    "Số lượng đơn hàng mua sắm trực tuyến", "Từ năm 2018 đến năm 2025, Số lượng đơn hàng mua sắm trực tuyến (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng đơn hàng mua sắm trực tuyến, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Số lượng đơn hàng mua sắm trực tuyến là 62830đơn hàng, và vào năm 2025, Số lượng đơn hàng mua sắm trực tuyến là 224878đơn hàng."
+    
+
+
+    "Tổng doanh số của nhà hàng", "Từ năm 2015 đến năm 2020, Tổng doanh số của nhà hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng doanh số của nhà hàng, t là số năm tính từ năm 2015. Biết rằng vào năm 2015, Tổng doanh số của nhà hàng là 838742đ, và vào năm 2020, Tổng doanh số của nhà hàng là 2329786đ."
+    
+
+
+    "Doanh thu từ bán hàng trực tuyến", "Từ năm 2022 đến năm 2022, Doanh thu từ bán hàng trực tuyến (gọi là y) được tính theo công thức y = at + b, trong đó y là Doanh thu từ bán hàng trực tuyến, t là số năm tính từ năm 2022. Biết rằng vào năm 2022, Doanh thu từ bán hàng trực tuyến là 1844522đ, và vào năm 2022, Doanh thu từ bán hàng trực tuyến là 7331972đ."
+    
+
+
+    "Số lượng câu hỏi đã làm trong bài tập", "Từ năm 2018 đến năm 2021, Số lượng câu hỏi đã làm trong bài tập (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng câu hỏi đã làm trong bài tập, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Số lượng câu hỏi đã làm trong bài tập là 658câu, và vào năm 2021, Số lượng câu hỏi đã làm trong bài tập là 2094câu."
+    
+
+
+    "Tổng sản lượng nông nghiệp", "Từ năm 2014 đến năm 2020, Tổng sản lượng nông nghiệp (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng sản lượng nông nghiệp, t là số năm tính từ năm 2014. Biết rằng vào năm 2014, Tổng sản lượng nông nghiệp là 4012166tấn, và vào năm 2020, Tổng sản lượng nông nghiệp là 8580020tấn."
+    
+
+
+    "Số lượng loại thuốc mới được phát triển", "Từ năm 2010 đến năm 2020, Số lượng loại thuốc mới được phát triển (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng loại thuốc mới được phát triển, t là số năm tính từ năm 2010. Biết rằng vào năm 2010, Số lượng loại thuốc mới được phát triển là 50loại, và vào năm 2020, Số lượng loại thuốc mới được phát triển là 57loại."
+    
+
+
+    "Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa", "Từ năm 2019 đến năm 2020, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa là 55%, và vào năm 2020, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa là 80%."
+    
+
+
+    "Số lượng khách du lịch", "Từ năm 2020 đến năm 2020, Số lượng khách du lịch (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng khách du lịch, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Số lượng khách du lịch là 12672người, và vào năm 2020, Số lượng khách du lịch là 72646người."
+    
+
+
+    "Tỉ lệ sử dụng internet hàng ngày", "Từ năm 2011 đến năm 2030, Tỉ lệ sử dụng internet hàng ngày (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sử dụng internet hàng ngày, t là số năm tính từ năm 2011. Biết rằng vào năm 2011, Tỉ lệ sử dụng internet hàng ngày là 49.119576304545134%, và vào năm 2030, Tỉ lệ sử dụng internet hàng ngày là 80.26224413255268%."
+    
+
+
+    "Doanh thu từ bán hàng trực tuyến", "Từ năm 2018 đến năm 2022, Doanh thu từ bán hàng trực tuyến (gọi là y) được tính theo công thức y = at + b, trong đó y là Doanh thu từ bán hàng trực tuyến, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Doanh thu từ bán hàng trực tuyến là 1298120đ, và vào năm 2022, Doanh thu từ bán hàng trực tuyến là 6375628đ."
+    
+
+
+    "Số lượng đồ uống bán ra từ cửa hàng", "Từ năm 2019 đến năm 2022, Số lượng đồ uống bán ra từ cửa hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng đồ uống bán ra từ cửa hàng, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Số lượng đồ uống bán ra từ cửa hàng là 3995ly, và vào năm 2022, Số lượng đồ uống bán ra từ cửa hàng là 7283ly."
+    
+
+
+    "Số lượng đồ uống bán ra từ cửa hàng", "Từ năm 2017 đến năm 2022, Số lượng đồ uống bán ra từ cửa hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng đồ uống bán ra từ cửa hàng, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Số lượng đồ uống bán ra từ cửa hàng là 1350ly, và vào năm 2022, Số lượng đồ uống bán ra từ cửa hàng là 8240ly."
+    
+
+
+    "Điểm trung bình của học sinh", "Từ năm 2020 đến năm 2022, Điểm trung bình của học sinh (gọi là y) được tính theo công thức y = at + b, trong đó y là Điểm trung bình của học sinh, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Điểm trung bình của học sinh là 8, và vào năm 2022, Điểm trung bình của học sinh là 8."
+    
+
+
+    "Tỉ lệ tự nhiên khí CO2 trong không khí", "Từ năm 2018 đến năm 2021, Tỉ lệ tự nhiên khí CO2 trong không khí (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ tự nhiên khí CO2 trong không khí, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Tỉ lệ tự nhiên khí CO2 trong không khí là 0.044068209085114496%, và vào năm 2021, Tỉ lệ tự nhiên khí CO2 trong không khí là 0.05916100680897007%."
+    
+
+
+    "Điểm trung bình của học sinh", "Từ năm 2021 đến năm 2022, Điểm trung bình của học sinh (gọi là y) được tính theo công thức y = at + b, trong đó y là Điểm trung bình của học sinh, t là số năm tính từ năm 2021. Biết rằng vào năm 2021, Điểm trung bình của học sinh là 7, và vào năm 2022, Điểm trung bình của học sinh là 9."
+    
+
+
+    "Số lượng giờ ôn thi mỗi tuần", "Từ năm 2016 đến năm 2020, Số lượng giờ ôn thi mỗi tuần (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng giờ ôn thi mỗi tuần, t là số năm tính từ năm 2016. Biết rằng vào năm 2016, Số lượng giờ ôn thi mỗi tuần là 8giờ, và vào năm 2020, Số lượng giờ ôn thi mỗi tuần là 10giờ."
+    
+
+
+    "Tổng doanh số bán hàng trên mạng xã hội", "Từ năm 2018 đến năm 2025, Tổng doanh số bán hàng trên mạng xã hội (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng doanh số bán hàng trên mạng xã hội, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Tổng doanh số bán hàng trên mạng xã hội là 9273031đ, và vào năm 2025, Tổng doanh số bán hàng trên mạng xã hội là 35009701đ."
+    
+
+
+    "Tỉ lệ người tiêu thụ rau quả hàng ngày", "Từ năm 2018 đến năm 2020, Tỉ lệ người tiêu thụ rau quả hàng ngày (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ người tiêu thụ rau quả hàng ngày, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Tỉ lệ người tiêu thụ rau quả hàng ngày là 60%, và vào năm 2020, Tỉ lệ người tiêu thụ rau quả hàng ngày là 76%."
+    
+
+
+    "Điểm trung bình của học sinh", "Từ năm 2020 đến năm 2022, Điểm trung bình của học sinh (gọi là y) được tính theo công thức y = at + b, trong đó y là Điểm trung bình của học sinh, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Điểm trung bình của học sinh là 8, và vào năm 2022, Điểm trung bình của học sinh là 8."
+    
+
+
+    "Độ sáng trung bình của đèn đường", "Từ năm 2017 đến năm 2022, Độ sáng trung bình của đèn đường (gọi là y) được tính theo công thức y = at + b, trong đó y là Độ sáng trung bình của đèn đường, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Độ sáng trung bình của đèn đường là 56lux, và vào năm 2022, Độ sáng trung bình của đèn đường là 143lux."
+    
+
+
+    "Tổng số lượng vi khuẩn trong mẫu đất", "Từ năm 2019 đến năm 2020, Tổng số lượng vi khuẩn trong mẫu đất (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng số lượng vi khuẩn trong mẫu đất, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Tổng số lượng vi khuẩn trong mẫu đất là 497055vi khuẩn, và vào năm 2020, Tổng số lượng vi khuẩn trong mẫu đất là 533825vi khuẩn."
+    
+
+
+    "Tỉ lệ người tiêu thụ rau quả hàng ngày", "Từ năm 2019 đến năm 2020, Tỉ lệ người tiêu thụ rau quả hàng ngày (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ người tiêu thụ rau quả hàng ngày, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Tỉ lệ người tiêu thụ rau quả hàng ngày là 64%, và vào năm 2020, Tỉ lệ người tiêu thụ rau quả hàng ngày là 78%."
+    
+
+
+    "Số lượng người tham gia sự kiện trực tuyến", "Từ năm 2025 đến năm 2035, Số lượng người tham gia sự kiện trực tuyến (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng người tham gia sự kiện trực tuyến, t là số năm tính từ năm 2025. Biết rằng vào năm 2025, Số lượng người tham gia sự kiện trực tuyến là 858người, và vào năm 2035, Số lượng người tham gia sự kiện trực tuyến là 3335người."
+    
+
+
+    "Tổng doanh số bán hàng", "Từ năm 2020 đến năm 2020, Tổng doanh số bán hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng doanh số bán hàng, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Tổng doanh số bán hàng là 2414233đ, và vào năm 2020, Tổng doanh số bán hàng là 12229702đ."
+    
+
+
+    "Tỉ lệ tự nhiên khí CO2 trong không khí", "Từ năm 2020 đến năm 2021, Tỉ lệ tự nhiên khí CO2 trong không khí (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ tự nhiên khí CO2 trong không khí, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Tỉ lệ tự nhiên khí CO2 trong không khí là 0.04412550146814324%, và vào năm 2021, Tỉ lệ tự nhiên khí CO2 trong không khí là 0.06827531460796242%."
+    
+
+
+    "Số lượng học sinh đậu kỳ thi tốt nghiệp", "Từ năm 2019 đến năm 2020, Số lượng học sinh đậu kỳ thi tốt nghiệp (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng học sinh đậu kỳ thi tốt nghiệp, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Số lượng học sinh đậu kỳ thi tốt nghiệp là 1019học sinh, và vào năm 2020, Số lượng học sinh đậu kỳ thi tốt nghiệp là 1741học sinh."
+    
+
+
+    "Tổng doanh số bán hàng trên mạng xã hội", "Từ năm 2021 đến năm 2024, Tổng doanh số bán hàng trên mạng xã hội (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng doanh số bán hàng trên mạng xã hội, t là số năm tính từ năm 2021. Biết rằng vào năm 2021, Tổng doanh số bán hàng trên mạng xã hội là 6923579đ, và vào năm 2024, Tổng doanh số bán hàng trên mạng xã hội là 49643062đ."
+    
+
+
+    "Tỉ lệ người tiêm vắc xin", "Từ năm 2021 đến năm 2022, Tỉ lệ người tiêm vắc xin (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ người tiêm vắc xin, t là số năm tính từ năm 2021. Biết rằng vào năm 2021, Tỉ lệ người tiêm vắc xin là 80%, và vào năm 2022, Tỉ lệ người tiêm vắc xin là 89%."
+    
+
+
+    "Điểm trung bình của sinh viên", "Từ năm 2019 đến năm 2022, Điểm trung bình của sinh viên (gọi là y) được tính theo công thức y = at + b, trong đó y là Điểm trung bình của sinh viên, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Điểm trung bình của sinh viên là 7, và vào năm 2022, Điểm trung bình của sinh viên là 9."
+    
+
+
+    "Số lượng câu hỏi đã làm trong bài tập", "Từ năm 2016 đến năm 2021, Số lượng câu hỏi đã làm trong bài tập (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng câu hỏi đã làm trong bài tập, t là số năm tính từ năm 2016. Biết rằng vào năm 2016, Số lượng câu hỏi đã làm trong bài tập là 1112câu, và vào năm 2021, Số lượng câu hỏi đã làm trong bài tập là 1915câu."
+    
+
+
+    "Điểm trung bình của sinh viên", "Từ năm 2017 đến năm 2022, Điểm trung bình của sinh viên (gọi là y) được tính theo công thức y = at + b, trong đó y là Điểm trung bình của sinh viên, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Điểm trung bình của sinh viên là 7, và vào năm 2022, Điểm trung bình của sinh viên là 10."
+    
+
+
+    "Số lượng giờ ôn thi mỗi tuần", "Từ năm 2017 đến năm 2020, Số lượng giờ ôn thi mỗi tuần (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng giờ ôn thi mỗi tuần, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Số lượng giờ ôn thi mỗi tuần là 6giờ, và vào năm 2020, Số lượng giờ ôn thi mỗi tuần là 15giờ."
+    
+
+
+    "Số lượng câu hỏi đã làm trong bài tập", "Từ năm 2019 đến năm 2021, Số lượng câu hỏi đã làm trong bài tập (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng câu hỏi đã làm trong bài tập, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Số lượng câu hỏi đã làm trong bài tập là 1353câu, và vào năm 2021, Số lượng câu hỏi đã làm trong bài tập là 2432câu."
+    
+
+
+    "Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa", "Từ năm 2015 đến năm 2020, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa, t là số năm tính từ năm 2015. Biết rằng vào năm 2015, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa là 53%, và vào năm 2020, Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa là 85%."
+    
+
+
+    "Số lượng giờ ôn thi mỗi tuần", "Từ năm 2019 đến năm 2020, Số lượng giờ ôn thi mỗi tuần (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng giờ ôn thi mỗi tuần, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Số lượng giờ ôn thi mỗi tuần là 7giờ, và vào năm 2020, Số lượng giờ ôn thi mỗi tuần là 12giờ."
+    
+
+
+    "Số lượng câu hỏi đã làm trong bài tập", "Từ năm 2016 đến năm 2021, Số lượng câu hỏi đã làm trong bài tập (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng câu hỏi đã làm trong bài tập, t là số năm tính từ năm 2016. Biết rằng vào năm 2016, Số lượng câu hỏi đã làm trong bài tập là 1037câu, và vào năm 2021, Số lượng câu hỏi đã làm trong bài tập là 1582câu."
+    
+
+
+    "Tỉ lệ người tiêu thụ rau quả hàng ngày", "Từ năm 2015 đến năm 2020, Tỉ lệ người tiêu thụ rau quả hàng ngày (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ người tiêu thụ rau quả hàng ngày, t là số năm tính từ năm 2015. Biết rằng vào năm 2015, Tỉ lệ người tiêu thụ rau quả hàng ngày là 63%, và vào năm 2020, Tỉ lệ người tiêu thụ rau quả hàng ngày là 76%."
+    
+
+
+    "Số lượng đồ uống bán ra từ cửa hàng", "Từ năm 2017 đến năm 2022, Số lượng đồ uống bán ra từ cửa hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng đồ uống bán ra từ cửa hàng, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Số lượng đồ uống bán ra từ cửa hàng là 3217ly, và vào năm 2022, Số lượng đồ uống bán ra từ cửa hàng là 8041ly."
+    
+
+
+    "Tỉ lệ sinh viên tốt nghiệp", "Từ năm 2019 đến năm 2021, Tỉ lệ sinh viên tốt nghiệp (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sinh viên tốt nghiệp, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Tỉ lệ sinh viên tốt nghiệp là 58%, và vào năm 2021, Tỉ lệ sinh viên tốt nghiệp là 90%."
+    
+
+
+    "Số lượng khách du lịch", "Từ năm 2018 đến năm 2020, Số lượng khách du lịch (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng khách du lịch, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Số lượng khách du lịch là 39474người, và vào năm 2020, Số lượng khách du lịch là 50742người."
+    
+
+
+    "Tổng số xe đăng ký mới", "Từ năm 2017 đến năm 2020, Tổng số xe đăng ký mới (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng số xe đăng ký mới, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Tổng số xe đăng ký mới là 5466xe, và vào năm 2020, Tổng số xe đăng ký mới là 24565xe."
+    
+
+
+    "Tỉ lệ tự nhiên khí CO2 trong không khí", "Từ năm 2015 đến năm 2021, Tỉ lệ tự nhiên khí CO2 trong không khí (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ tự nhiên khí CO2 trong không khí, t là số năm tính từ năm 2015. Biết rằng vào năm 2015, Tỉ lệ tự nhiên khí CO2 trong không khí là 0.048958773648304546%, và vào năm 2021, Tỉ lệ tự nhiên khí CO2 trong không khí là 0.05589534429520649%."
+    
+
+
+    "Thời gian học trung bình hàng ngày", "Từ năm 2022 đến năm 2023, Thời gian học trung bình hàng ngày (gọi là y) được tính theo công thức y = at + b, trong đó y là Thời gian học trung bình hàng ngày, t là số năm tính từ năm 2022. Biết rằng vào năm 2022, Thời gian học trung bình hàng ngày là 4giờ, và vào năm 2023, Thời gian học trung bình hàng ngày là 5giờ."
+    
+
+
+    "Thời gian học trung bình hàng ngày", "Từ năm 2019 đến năm 2023, Thời gian học trung bình hàng ngày (gọi là y) được tính theo công thức y = at + b, trong đó y là Thời gian học trung bình hàng ngày, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Thời gian học trung bình hàng ngày là 3giờ, và vào năm 2023, Thời gian học trung bình hàng ngày là 6giờ."
+    
+
+
+    "Tỉ lệ sinh viên được nhận học bổng", "Từ năm 2020 đến năm 2021, Tỉ lệ sinh viên được nhận học bổng (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sinh viên được nhận học bổng, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Tỉ lệ sinh viên được nhận học bổng là 14%, và vào năm 2021, Tỉ lệ sinh viên được nhận học bổng là 28%."
+    
+
+
+    "Số lượng sinh vật mới được phát hiện", "Từ năm 2010 đến năm 2020, Số lượng sinh vật mới được phát hiện (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng sinh vật mới được phát hiện, t là số năm tính từ năm 2010. Biết rằng vào năm 2010, Số lượng sinh vật mới được phát hiện là 75loài, và vào năm 2020, Số lượng sinh vật mới được phát hiện là 289loài."
+    
+
+
+    "Tỉ lệ sinh viên được nhận học bổng", "Từ năm 2020 đến năm 2021, Tỉ lệ sinh viên được nhận học bổng (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sinh viên được nhận học bổng, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Tỉ lệ sinh viên được nhận học bổng là 14%, và vào năm 2021, Tỉ lệ sinh viên được nhận học bổng là 20%."
+    
+
+
+    "Tỉ lệ sử dụng internet hàng ngày", "Từ năm 2017 đến năm 2027, Tỉ lệ sử dụng internet hàng ngày (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sử dụng internet hàng ngày, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Tỉ lệ sử dụng internet hàng ngày là 67.22008865201369%, và vào năm 2027, Tỉ lệ sử dụng internet hàng ngày là 88.89765018859964%."
+    
+
+
+    "Số lượng đồ uống bán ra từ cửa hàng", "Từ năm 2018 đến năm 2022, Số lượng đồ uống bán ra từ cửa hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng đồ uống bán ra từ cửa hàng, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Số lượng đồ uống bán ra từ cửa hàng là 4448ly, và vào năm 2022, Số lượng đồ uống bán ra từ cửa hàng là 7443ly."
+    
+
+
+    "Điểm trung bình của sinh viên", "Từ năm 2021 đến năm 2022, Điểm trung bình của sinh viên (gọi là y) được tính theo công thức y = at + b, trong đó y là Điểm trung bình của sinh viên, t là số năm tính từ năm 2021. Biết rằng vào năm 2021, Điểm trung bình của sinh viên là 7, và vào năm 2022, Điểm trung bình của sinh viên là 9."
+    
+
+
+    "Số lượng đơn hàng mua sắm trực tuyến", "Từ năm 2019 đến năm 2025, Số lượng đơn hàng mua sắm trực tuyến (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng đơn hàng mua sắm trực tuyến, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Số lượng đơn hàng mua sắm trực tuyến là 94881đơn hàng, và vào năm 2025, Số lượng đơn hàng mua sắm trực tuyến là 271458đơn hàng."
+    
+
+
+    "Số lượng học sinh đậu kỳ thi tốt nghiệp", "Từ năm 2018 đến năm 2020, Số lượng học sinh đậu kỳ thi tốt nghiệp (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng học sinh đậu kỳ thi tốt nghiệp, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Số lượng học sinh đậu kỳ thi tốt nghiệp là 995học sinh, và vào năm 2020, Số lượng học sinh đậu kỳ thi tốt nghiệp là 1244học sinh."
+    
+
+
+    "Tỉ lệ sinh viên được nhận học bổng", "Từ năm 2019 đến năm 2021, Tỉ lệ sinh viên được nhận học bổng (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ sinh viên được nhận học bổng, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Tỉ lệ sinh viên được nhận học bổng là 19%, và vào năm 2021, Tỉ lệ sinh viên được nhận học bổng là 23%."
+    
+
+
+    "Tổng số lượng phân tử trong mẫu chất", "Từ năm 2016 đến năm 2029, Tổng số lượng phân tử trong mẫu chất (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng số lượng phân tử trong mẫu chất, t là số năm tính từ năm 2016. Biết rằng vào năm 2016, Tổng số lượng phân tử trong mẫu chất là 2831906phân tử, và vào năm 2029, Tổng số lượng phân tử trong mẫu chất là 7013585phân tử."
+    
+
+
+    "Tỉ lệ người tiêu thụ rau quả hàng ngày", "Từ năm 2018 đến năm 2020, Tỉ lệ người tiêu thụ rau quả hàng ngày (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ người tiêu thụ rau quả hàng ngày, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Tỉ lệ người tiêu thụ rau quả hàng ngày là 56%, và vào năm 2020, Tỉ lệ người tiêu thụ rau quả hàng ngày là 81%."
+    
+
+
+    "Số lượng câu hỏi đã làm trong bài tập", "Từ năm 2021 đến năm 2021, Số lượng câu hỏi đã làm trong bài tập (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng câu hỏi đã làm trong bài tập, t là số năm tính từ năm 2021. Biết rằng vào năm 2021, Số lượng câu hỏi đã làm trong bài tập là 737câu, và vào năm 2021, Số lượng câu hỏi đã làm trong bài tập là 2533câu."
+    
+
+
+    "Tỉ lệ người tiêm vắc xin", "Từ năm 2018 đến năm 2022, Tỉ lệ người tiêm vắc xin (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ người tiêm vắc xin, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Tỉ lệ người tiêm vắc xin là 74%, và vào năm 2022, Tỉ lệ người tiêm vắc xin là 87%."
+    
+
+
+    "Số lượng người tham gia nghiên cứu sinh học", "Từ năm 2018 đến năm 2021, Số lượng người tham gia nghiên cứu sinh học (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng người tham gia nghiên cứu sinh học, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Số lượng người tham gia nghiên cứu sinh học là 202người, và vào năm 2021, Số lượng người tham gia nghiên cứu sinh học là 1566người."
+    
+
+
+    "Số lượng khẩu phần ăn hàng ngày", "Từ năm 2021 đến năm 2023, Số lượng khẩu phần ăn hàng ngày (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng khẩu phần ăn hàng ngày, t là số năm tính từ năm 2021. Biết rằng vào năm 2021, Số lượng khẩu phần ăn hàng ngày là 4, và vào năm 2023, Số lượng khẩu phần ăn hàng ngày là 7."
+    
+
+
+    "Số lượng người tham gia khóa học trực tuyến", "Từ năm 2020 đến năm 2022, Số lượng người tham gia khóa học trực tuyến (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng người tham gia khóa học trực tuyến, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Số lượng người tham gia khóa học trực tuyến là 3165người, và vào năm 2022, Số lượng người tham gia khóa học trực tuyến là 6248người."
+    
+
+
+    "Số lượng đồ uống bán ra từ cửa hàng", "Từ năm 2018 đến năm 2022, Số lượng đồ uống bán ra từ cửa hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng đồ uống bán ra từ cửa hàng, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Số lượng đồ uống bán ra từ cửa hàng là 1307ly, và vào năm 2022, Số lượng đồ uống bán ra từ cửa hàng là 8315ly."
+    
+
+
+    "Tổng doanh thu công ty", "Từ năm 2017 đến năm 2037, Tổng doanh thu công ty (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng doanh thu công ty, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Tổng doanh thu công ty là 1176000000đ, và vào năm 2037, Tổng doanh thu công ty là 3467654đ."
+    
+
+
+    "Tổng doanh thu công ty", "Từ năm 2014 đến năm 2034, Tổng doanh thu công ty (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng doanh thu công ty, t là số năm tính từ năm 2014. Biết rằng vào năm 2014, Tổng doanh thu công ty là 1280500000đ, và vào năm 2034, Tổng doanh thu công ty là 4585074đ."
+    
+
+
+    "Điểm trung bình của sinh viên", "Từ năm 2021 đến năm 2022, Điểm trung bình của sinh viên (gọi là y) được tính theo công thức y = at + b, trong đó y là Điểm trung bình của sinh viên, t là số năm tính từ năm 2021. Biết rằng vào năm 2021, Điểm trung bình của sinh viên là 8, và vào năm 2022, Điểm trung bình của sinh viên là 10."
+    
+
+
+    "Tỉ lệ người tiêu thụ rau quả hàng ngày", "Từ năm 2016 đến năm 2020, Tỉ lệ người tiêu thụ rau quả hàng ngày (gọi là y) được tính theo công thức y = at + b, trong đó y là Tỉ lệ người tiêu thụ rau quả hàng ngày, t là số năm tính từ năm 2016. Biết rằng vào năm 2016, Tỉ lệ người tiêu thụ rau quả hàng ngày là 61%, và vào năm 2020, Tỉ lệ người tiêu thụ rau quả hàng ngày là 85%."
+    
+
+
+    "Lãi suất ngân hàng", "Từ năm 2016 đến năm 2025, Lãi suất ngân hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Lãi suất ngân hàng, t là số năm tính từ năm 2016. Biết rằng vào năm 2016, Lãi suất ngân hàng là 2%, và vào năm 2025, Lãi suất ngân hàng là 4%."
+    
+
+
+    "Số lượng người tham gia sự kiện trực tuyến", "Từ năm 2019 đến năm 2029, Số lượng người tham gia sự kiện trực tuyến (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng người tham gia sự kiện trực tuyến, t là số năm tính từ năm 2019. Biết rằng vào năm 2019, Số lượng người tham gia sự kiện trực tuyến là 269người, và vào năm 2029, Số lượng người tham gia sự kiện trực tuyến là 2742người."
+    
+
+
+    "Điểm trung bình của sinh viên", "Từ năm 2020 đến năm 2022, Điểm trung bình của sinh viên (gọi là y) được tính theo công thức y = at + b, trong đó y là Điểm trung bình của sinh viên, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Điểm trung bình của sinh viên là 7, và vào năm 2022, Điểm trung bình của sinh viên là 10."
+    
+
+
+    "Thời gian học trung bình hàng ngày", "Từ năm 2020 đến năm 2023, Thời gian học trung bình hàng ngày (gọi là y) được tính theo công thức y = at + b, trong đó y là Thời gian học trung bình hàng ngày, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Thời gian học trung bình hàng ngày là 4giờ, và vào năm 2023, Thời gian học trung bình hàng ngày là 4giờ."
+    
+
+
+    "Tổng số lượng phân tử trong mẫu chất", "Từ năm 2017 đến năm 2029, Tổng số lượng phân tử trong mẫu chất (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng số lượng phân tử trong mẫu chất, t là số năm tính từ năm 2017. Biết rằng vào năm 2017, Tổng số lượng phân tử trong mẫu chất là 3417801phân tử, và vào năm 2029, Tổng số lượng phân tử trong mẫu chất là 6404021phân tử."
+    
+
+
+    "Số lượng người tham gia nghiên cứu sinh học", "Từ năm 2016 đến năm 2021, Số lượng người tham gia nghiên cứu sinh học (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng người tham gia nghiên cứu sinh học, t là số năm tính từ năm 2016. Biết rằng vào năm 2016, Số lượng người tham gia nghiên cứu sinh học là 736người, và vào năm 2021, Số lượng người tham gia nghiên cứu sinh học là 1554người."
+    
+
+
+    "Số lượng học sinh đậu kỳ thi tốt nghiệp", "Từ năm 2018 đến năm 2020, Số lượng học sinh đậu kỳ thi tốt nghiệp (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng học sinh đậu kỳ thi tốt nghiệp, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Số lượng học sinh đậu kỳ thi tốt nghiệp là 884học sinh, và vào năm 2020, Số lượng học sinh đậu kỳ thi tốt nghiệp là 1453học sinh."
+    
+
+
+    "Lãi suất ngân hàng", "Từ năm 2021 đến năm 2025, Lãi suất ngân hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Lãi suất ngân hàng, t là số năm tính từ năm 2021. Biết rằng vào năm 2021, Lãi suất ngân hàng là 3%, và vào năm 2025, Lãi suất ngân hàng là 5%."
+    
+
+
+    "Số lượng đồ uống bán ra từ cửa hàng", "Từ năm 2022 đến năm 2022, Số lượng đồ uống bán ra từ cửa hàng (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng đồ uống bán ra từ cửa hàng, t là số năm tính từ năm 2022. Biết rằng vào năm 2022, Số lượng đồ uống bán ra từ cửa hàng là 4556ly, và vào năm 2022, Số lượng đồ uống bán ra từ cửa hàng là 5940ly."
+    
+
+
+    "Số lượng người tham gia nghiên cứu sinh học", "Từ năm 2021 đến năm 2021, Số lượng người tham gia nghiên cứu sinh học (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng người tham gia nghiên cứu sinh học, t là số năm tính từ năm 2021. Biết rằng vào năm 2021, Số lượng người tham gia nghiên cứu sinh học là 457người, và vào năm 2021, Số lượng người tham gia nghiên cứu sinh học là 1432người."
+    
+
+
+    "Tổng số lượng phân tử trong mẫu chất", "Từ năm 2020 đến năm 2029, Tổng số lượng phân tử trong mẫu chất (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng số lượng phân tử trong mẫu chất, t là số năm tính từ năm 2020. Biết rằng vào năm 2020, Tổng số lượng phân tử trong mẫu chất là 4424576phân tử, và vào năm 2029, Tổng số lượng phân tử trong mẫu chất là 5842140phân tử."
+    
+
+
+    "Số lượng người tham gia khóa học trực tuyến", "Từ năm 2021 đến năm 2022, Số lượng người tham gia khóa học trực tuyến (gọi là y) được tính theo công thức y = at + b, trong đó y là Số lượng người tham gia khóa học trực tuyến, t là số năm tính từ năm 2021. Biết rằng vào năm 2021, Số lượng người tham gia khóa học trực tuyến là 2629người, và vào năm 2022, Số lượng người tham gia khóa học trực tuyến là 7795người."
+    
+
+
+    "Tổng số lượng vi khuẩn trong mẫu đất", "Từ năm 2016 đến năm 2020, Tổng số lượng vi khuẩn trong mẫu đất (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng số lượng vi khuẩn trong mẫu đất, t là số năm tính từ năm 2016. Biết rằng vào năm 2016, Tổng số lượng vi khuẩn trong mẫu đất là 390439vi khuẩn, và vào năm 2020, Tổng số lượng vi khuẩn trong mẫu đất là 619326vi khuẩn."
+    
+
+
+    "Tổng doanh thu công ty", "Từ năm 2011 đến năm 2043, Tổng doanh thu công ty (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng doanh thu công ty, t là số năm tính từ năm 2011. Biết rằng vào năm 2011, Tổng doanh thu công ty là 2276500000đ, và vào năm 2043, Tổng doanh thu công ty là 1094365đ."
+    
+
+
+    "Tổng số lượng phân tử trong mẫu chất", "Từ năm 2018 đến năm 2029, Tổng số lượng phân tử trong mẫu chất (gọi là y) được tính theo công thức y = at + b, trong đó y là Tổng số lượng phân tử trong mẫu chất, t là số năm tính từ năm 2018. Biết rằng vào năm 2018, Tổng số lượng phân tử trong mẫu chất là 1400936phân tử, và vào năm 2029, Tổng số lượng phân tử trong mẫu chất là 9167775phân tử."
+    
+

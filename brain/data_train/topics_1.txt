@@ -1,0 +1,41 @@
+Tổng số lượng phân tử trong mẫu chất,2013,2029,4502223,7195695
+Lãi suất ngân hàng,2017,2025,4,5
+Tỉ lệ người tiêm vắc xin,2018,2022,68,97
+Tỉ lệ sinh viên tốt nghiệp,2017,2021,70,88
+Tổng số lượng vi khuẩn trong mẫu đất,2015,2020,352643,708649
+Số lượng câu hỏi đã làm trong bài tập,2021,2022,549,1665
+Tỉ lệ tự nhiên khí CO2 trong không khí,2017,2021,0.04773973354377354,0.0617416962348996
+Điểm trung bình của sinh viên,2019,2022,7,9
+Giá trị của cổ phiếu,2015,2020,101,180
+Tổng sản lượng nông nghiệp,2017,2020,2113946,9677659
+Tỉ lệ sinh viên tham gia các hoạt động ngoại khóa,2019,2020,34,71
+Số lượng người tham gia nghiên cứu sinh học,2016,2021,341,940
+Số lượng đồ uống bán ra từ cửa hàng,2017,2022,4695,5265
+Tỉ lệ sinh viên được nhận học bổng,2018,2021,18,20
+Tổng doanh số bán hàng,2019,2020,3911622,13117171
+Giá trị nhập khẩu thực phẩm,2010,2020,45867695,96591082
+Số lượng sách được mượn từ thư viện,2020,2025,1707,9404
+Số lượng sinh vật mới được phát hiện,2018,2020,70,287
+Số lượng người dùng mạng xã hội,2015,2020,3623,13415
+Điểm trung bình của học sinh,2017,2022,8,8
+Số lượng khách du lịch,2017,2020,46037,98706
+Số lượng thiết bị điện tử bán ra,2020,2022,92357,190041
+Thời gian học trung bình hàng ngày,2021,2023,2,6
+Số lượng người tham gia khóa học trực tuyến,2018,2022,3270,6109
+Số lượng loại thuốc mới được phát triển,2019,2020,24,82
+Tỉ lệ sử dụng phần mềm di động,2013,2030,27.331354765237386,66.2415488172287
+Số lượng học sinh đậu kỳ thi tốt nghiệp,2020,2022,809,1824
+Tổng doanh thu công ty,2018,2040,2524000000,5179659
+Tỉ lệ người tiêu thụ rau quả hàng ngày,2019,2020,57,90
+Tổng số xe đăng ký mới,2018,2020,8112,28361
+Độ sáng trung bình của đèn đường,2019,2022,59,127
+Tổng công suất sản xuất điện năng,2018,2020,47807,64389
+Tổng doanh số của nhà hàng,2016,2020,1433515,3136322
+Số lượng đơn hàng mua sắm trực tuyến,2018,2025,62830,224878
+Doanh thu từ bán hàng trực tuyến,2022,2022,1844522,7331972
+Tỉ lệ sử dụng internet hàng ngày,2011,2030,49.119576304545134,80.26224413255268
+Số lượng giờ ôn thi mỗi tuần,2016,2020,8,10
+Tỉ lệ sử dụng internet hàng ngày,2017,2027,67.22008865201369,88.89765018859964
+Số lượng khẩu phần ăn hàng ngày,2021,2023,4,7
+Số lượng người tham gia sự kiện trực tuyến,2019,2029,269,2742
+

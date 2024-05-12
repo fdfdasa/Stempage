@@ -1,0 +1,81 @@
+
+import os
+import json
+import numpy as np
+from keras.preprocessing.text import Tokenizer
+from keras.preprocessing.sequence import pad_sequences
+from keras.models import Sequential
+from keras.layers import Embedding, LSTM, Dense, Dropout, Bidirectional
+from keras.callbacks import EarlyStopping, ModelCheckpoint
+from sklearn.model_selection import train_test_split
+# Nếu sử dụng categorical_crossentropy, cần chuyển nhãn sang dạng one-hot:
+from keras.utils.np_utils import to_categorical
+# Lấy đường dẫn của thư mục hiện tại
+current_dir = os.getcwd()
+
+# Đường dẫn đến các file JSON
+problems_path = os.path.join(current_dir, "scr\\Data_train\\problems.json")
+labels_path = os.path.join(current_dir, "scr\\Data_train\\labels.json")
+
+# Load dữ liệu từ các file JSON
+with open(problems_path, 'r', encoding='utf-8') as f:
+    problems = json.load(f)
+
+with open(labels_path, 'r', encoding='utf-8') as f:
+    labels = json.load(f)
+
+# Tiền xử lý dữ liệu văn bản
+tokenizer = Tokenizer()
+tokenizer.fit_on_texts(problems)
+sequences = tokenizer.texts_to_sequences(problems)
+max_len = max([len(seq) for seq in sequences])
+
+
+X_train = pad_sequences(sequences, maxlen=max_len)
+
+# Chuyển đổi nhãn sang dạng số
+label_dict = {label: i for i, label in enumerate(set(labels))}
+y_train = [label_dict[label] for label in labels]
+y_train = to_categorical(y_train, num_classes=len(set(labels)))
+y_val = to_categorical(y_val, num_classes=len(set(labels)))
+
+# Chia dữ liệu thành tập huấn luyện và tập validation
+X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=0.2, random_state=42)
+
+# Xây dựng mô hình LSTM với Bidirectional
+model = Sequential([
+    Embedding(input_dim=len(tokenizer.word_index) + 1, output_dim=100, input_length=max_len),
+    Bidirectional(LSTM(128, return_sequences=True)),
+    Bidirectional(LSTM(64)),
+    Dense(64, activation='relu'),
+    Dropout(0.5),
+    Dense(len(set(labels)), activation='softmax')
+])
+
+# Compile mô hình
+model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+# Callbacks để ngăn chặn overfitting và lưu mô hình tốt nhất
+early_stopping = EarlyStopping(monitor='val_loss', patience=5)
+model_checkpoint = ModelCheckpoint('best_model.h5', save_best_only=True, monitor='val_accuracy', mode='max')
+
+# Huấn luyện mô hình
+model.fit(X_train, y_train, epochs=30, validation_data=(X_val, y_val), callbacks=[early_stopping, model_checkpoint])
+
+# Lưu mô hình và tokenizer
+# model.save("math_problem_model.h5")
+# with open("tokenizer.pickle", "wb") as handle:
+#     pickle.dump(tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+# # Lưu label_dict
+# with open("label_dict.pickle", "wb") as handle:
+#     pickle.dump(label_dict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+# # Lưu tokenizer thành tệp JSON
+# tokenizer_json = tokenizer.to_json()
+# with open("tokenizer.json", "w", encoding='utf-8') as json_file:
+#     json.dump(tokenizer_json, json_file, ensure_ascii=False)
+
+# # Lưu label_dict vào file JSON
+# with open("label_dict.json", "w") as json_file:
+#     json.dump(label_dict, json_file)

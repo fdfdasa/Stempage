@@ -1,0 +1,25 @@
+/*else {
+            // Gửi nội dung bài tập cho Python xử lý
+            try {
+                const results = await sendToPython(text);
+                const predictedLabel = results[0].predicted_label.toLowerCase();
+                let responseMessage;
+
+                if (predictedLabel.includes('tỉ lệ phần trăm') || predictedLabel.includes('phương trình') || predictedLabel.includes('lập hệ phương trình')) {
+
+                    responseMessage = predictedLabel;
+                    responseMessage = 'Cảm ơn bạn đây là dạng ' + predictedLabel + ' Bạn cần tạo bao nhiêu bài?😅';
+                    isCreatingExercise = false;
+                    isConfirmingQuantity = true;
+                } else {
+                    responseMessage = `Server: Kết quả dự đoán từ bài tập: ${predictedLabel}`;
+                    isCreatingExercise = false; // Kết thúc quá trình tạo bài tập
+                }
+
+                return res.json({ messages: Array(numberOfReplies).fill(responseMessage) });
+            } catch (error) {
+                console.error('Error calling Python script:', error);
+                return res.status(500).json({ messages: [`Server: Đã xảy ra lỗi khi xử lý bài tập.`], error: error.message });
+            }
+        }
+        */

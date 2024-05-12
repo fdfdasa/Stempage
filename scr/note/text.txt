@@ -1,0 +1,175 @@
+import numpy as np
+import json
+import tensorflow as tf
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Embedding, LSTM, Dense, Dropout
+import pickle
+from sklearn.model_selection import train_test_split
+
+
+problems = [
+    "Hai lớp 9A và 9B có tổng số học sinh là 84. Trong đợt vận động mua bút ủng hộ nạn nhân chất độc màu da cam, mỗi học sinh lớp 9A mua 3 bút, mỗi học sinh lớp 9B mua 2 bút. Tính số học sinh mỗi lớp biết rằng tổng số bút hai lớp mua là 209 chiếc. ĐS: số hs lớp 9A là 41 hs, lớp 9B là 43 hs",
+    "Cuối năm học, cô Lan mua thước, compa làm phần thưởng tặng học sinh có tiến bộ trong học tập. Thước giá 3000đ/cây, compa giá 6000đ/cây. Tổng số thước và compa là 40 cây và cô Lan đã bỏ ra số tiền là 150000 để mua. Hỏi có bao nhiêu thước, bao nhiêu compa ?",
+    "Sau khi xem bảng giá, mẹ An đưa 350000 đồng nhờ An mua 1 bàn ủi, 1 bộ lau nhà. Hôm nay đúng đợt khuyến mãi, bàn ủi giảm 10%, bộ lau nhà giảm 20% nên An chỉ trả 300000 đồng. Hỏi giá tiền của bàn ủi và bộ lau nhà lúc đầu là bao nhiêu? ĐS: 200000;150000",
+    "Một hình chữ nhật có chu vi là 96m. Nếu tăng chiều rộng 3m và giảm chiều dài 4m, thì diện tích tăng 6m2. Tính diện tích của hình chữ nhật lúc đầu. ĐS: 540",
+    "Ông Ba có chín trăm triệu đồng. Ông dùng một phần số tiền này để gởi ngân hàng với lãi suất 7;5% một năm. Phần còn lại, ông góp vốn với một người bạn để kinh doanh. Sau một năm, ông thu về số tiền cả vốn và lãi từ hai nguồn trên là một tỉ hai mươi triệu đồng. Biết rằng tiền lãi khi kinh doanh bằng 25% số tiền vốn ban đầu. Hỏi ông Ba đã gởi ngân hàng bao nhiêu tiền và góp bao nhiêu tiền với người bạn để kinh doanh? ĐS: 600;300",
+    "Cuối học kì I, số học sinh giỏi của lớp 9A bằng 20% số học sinh cả lớp. Đến cuối học kì II, lớp có thêm 2 bạn đạt học sinh giỏi nên số học sinh giỏi ở học kì II bằng 25% số học sinh cả lớp. Hỏi lớp 9A có bao nhiêu học sinh?",
+    "Năm ngoái dân số hai tỉnh A và B tổng cộng là 3 triệu người. Theo thống kê thì năm nay tỉnh A tăng 2% còn tỉnh B tăng 1;8% nên tổng số dân tăng thêm của cả hai tỉnh là 0,0566 triệu người. Hỏi năm ngoái mỗi tỉnh dân số là bao nhiêu? MATH.ND ĐS: 40",
+    "Một siêu thị A có các mặt hàng giày dép đồng giá, các mặt hàng quần áo đồng giá. Tổng giá tiền niêm yết của một đôi giày và một bộ quần áo là 850 000 đồng. Biết giá tiền niêm yết của 2 bộ quần áo ít hơn giá tiền niêm yết của 3 đôi giày là 50 000 đồng. a) Hỏi giá tiền niêm yết của một bộ quần áo, một đôi giày là bao nhiêu? b) Nhân dịp ngày Quốc tế Phụ nữ 8/3, siêu thị A đã mở ra chương trình khuyến mãi như sau: Các mặt hàng giày dép được giảm 20% (so với giá niêm yết), các mặt hàng quần áo được giảm 25% (so với giá niêm yết); ngoài ra nếu khách hàng mua hàng có hóa đơn từ 2 000 000 đồng trở lên sẽ được giảm tiếp 10% so với giá tiền đã mua. Trong dịp này, một người đã mua 5 bộ quần áo và 3 đôi giày. Hỏi người đó đã trả bao nhiêu tiền ? ĐS: 350000;500000;2443500",
+    "Trường Trung học cơ sở A và Trường Trung học cơ sở B có tổng cộng 810 học sinh thi đậu vào lớp 10 THPT Công lập, đạt tỉ lệ trúng tuyển là 90%. Nếu tính riêng từng trường thì trường A có tỉ lệ thí sinh thi đậu là 92%, trường B có tỉ lệ thí sinh thi đậu là 88%. Hỏi mỗi trường có bao nhiêu thí sinh dự thi?",
+    "Một trường tổ chức cho 250 người bao gồm giáo viên và học sinh đi tham quan Đại Nam. Biết giá vào cổng của một giáo viên là 80000 đồng, của một học sinh là 60000 đồng. Nhân ngày giỗ Tổ Hùng Vương nên được giảm 5% cho mỗi vé vào cổng, vì vậy mà nhà trường chỉ phải trả số tiền là 14535000 đồng. Hỏi có bao nhiêu giáo viên? Bao nhiêu học sinh? (Đáp án: 15 giáo viên, 235 học sinh)",
+    "Năm ngoái, hai đơn vị sản xuất nông nghiệp thu hoạch được 720 tấn thóc. Năm nay, đơn vị thứ nhất làm vượt mức 15%, đơn vị thứ hai làm vượt mức 12% so với năm ngoái. Do đó cả hai đơn vị thu hoạch được 819 tấn thóc. Hỏi năm ngoái, mỗi đơn vị thu hoạch được bao nhiêu tấn thóc?",
+    "Để tổ chức cho 345 người bao gồm học sinh khối lớp 9 và giáo viên phụ trách tham dự hội trại kỷ niệm 26/3 tại Phan Thiết, nhà trường đã thuê 9 chiếc xe gồm hai loại: loại 45 chỗ ngồi và loại 15 chỗ ngồi (không kể tài xế). Hỏi mỗi loại có bao nhiêu chiếc xe biết rằng không có xe nào còn trống chỗ? (Đáp án: 89 chiếc loại 45 chỗ, 35 chiếc loại 15 chỗ)",
+    "Một khu vườn hình chữ nhật có chiều dài bằng 3 lần chiều rộng và diện tích là 300m2. Tính chu vi của vườn. (Đáp án: 80m)",
+    "Mẹ bạn Lan mua trái cây ở siêu thị gồm hai loại cam và nho. Biết rằng 1kg cam có giá 150 nghìn đồng, 1 kg nho có giá 250 nghìn đồng. Mẹ bạn Lan mua 4 kg cả hai loại trái cây hết tất cả 700 nghìn đồng. Hỏi mẹ bạn Lan đã mua bao nhiêu kg cam, bao nhiêu kg nho? (Đáp án: 3kg cam, 1kg nho)",
+    "Trong lớp học có một số ghế dài. Nếu xếp mỗi ghế 3 học sinh thì 6 học sinh không có chỗ ngồi. Nếu xếp mỗi ghế 4 học sinh thì thừa 1 ghế. Hỏi lớp có bao nhiêu ghế và bao nhiêu học sinh?",
+    "Trong kỳ thi tuyển sinh vào lớp 10 năm học 2017-2018, hai trường A và B có 228 học sinh thi đỗ, đạt tỉ lệ 76%. Nếu tính riêng từng trường thì trường A đỗ 70%, còn trường B đỗ 85%. Tính xem mỗi trường có bao nhiêu học sinh dự thi và có bao nhiêu học sinh đỗ?",
+    "Bác An cần lát gạch một nền nhà hình chữ nhật có chu vi là 48m và chiều dài hơn chiều rộng là 12m. Bác An chọn gạch hình vuông có cạnh là 60cm để lát gạch nền nhà, giá mỗi viên gạch là 120,000 đồng. Hỏi bác An cần bao nhiêu tiền để lát gạch nền nhà?",
+    "Bạn An trung bình tiêu thụ 18 calo cho mỗi phút bơi và 12 calo cho mỗi phút chạy bộ. Hôm nay, An mất 2.75 giờ cho cả hai hoạt động trên và tiêu thụ hết 2520 calo. Hỏi hôm nay, bạn An mất bao nhiêu thời gian cho mỗi hoạt động?",
+    "Gen B có 3600 liên kết Hidro và có hiệu giữa Nucleotit loại T với loại Nucleotit không bổ sung với nó là 300 Nucleotit. Tính số Nucleotit từng loại của gan B. Biết rằng, để tính số lượng Nucleotit (A, T, G, X) trong phân tử AND, ta áp dụng nguyên tắc bổ sung: “A liên kết với T bằng 2 liên kết Hidro và G liên kết với X bằng 3 liên kết Hidro” và % A = %T, %G = %X . Tổng số Nucleotit trong gen B: N =A+T+G+X=2A+2G=2T+2X: (Đáp án: 600 Nucleotit loại A, 900 Nucleotit loại T)",
+    "Một chiếc vòng nữ trang được làm từ vàng và bạc với thể tích là 10 cm3 và cân nặng 171 g. Biết vàng có khối lượng riêng là 19.3 g/cm3 còn bạc có khối lượng riêng là 10.5 g/cm3. Hỏi thể tích của vàng và bạc được sử dụng để làm chiếc vòng?",
+    "Một phòng họp đủ chổ cho 510 người ngồi gồm hai loại ghế: loại 4 chỗ ngồi và 6 chỗ ngồi. Cả hai loại có 105 ghế. Hỏi mỗi loại ghế có mấy cái?",
+    "Tính hai cạnh góc vuông của một tam giác vuông có cạnh huyền đo được 185m. Biết rằng nếu giảm mỗi cạnh góc vuông 4m thì diện tích tam giác giảm 506m2. (Đáp án: 153m, 104m)",
+    "Một đoàn y tế từ thiện của tỉnh gồm các bác sĩ và y tá về xã để khám chữa bệnh miễn phí cho người dân trong tỉnh. Đoàn gồm 45 người và có tuổi trung bình là 40 tuổi. Tính số bác sĩ và y tá biết tuổi trung bình của các bác sĩ là 50 tuổi và tuổi trung bình của các y tá là 35 tuổi. (Đáp án: 15 bác sĩ, 30 y tá)",
+    "Có hai quặng sắt: quặng I chứa 70% sắt, quặng II chứa 40% sắt. Người ta trộn một lượng quặng loại I với một lượng quặng loại II thì được hỗn hợp quặng chứa 60% sắt. Nếu lấy tăng hơn lúc đầu 5 tấn quặng loại I và lấy giảm hơn lúc đầu 5 tấn quặng loại II thì được hỗn hợp quặng chứa 65% sắt. Tính khối lượng mỗi loại quặng đem trộn lúc đầu?"
+    ,"Phương tiện vận chuyển công cộng hiện nay là xe Buýt với giá 5000 đồng/ lượt còn đối với Sinh viên- Học sinh là 2000 đồng/lượt và 112500 đồng tập 30 vé tháng. Anh Nam hằng ngày đi làm bằng xe Buýt 2 lượt đi và về, trung bình mỗi tháng anh đi làm 26 ngày."
+    ,"Cô Hoa mua 200 cái áo với giá mua 1 áo là 120 000 đồng. Cô bán 70 cái áo, mỗi áo so với giá mua lãi được 15%. Với 40 cái áo kế tiếp, cô bán giá 1 áo bằng với giá vốn. Còn 90 cái áo còn lại, mỗi áo phải bán lỗ với giá vốn 10%. Hỏi sau việc mua và bán 200 cái áo, cô Hoa lãi hay lỗ bao nhiêu tiền ?"
+    ,"Bác bảy mua một con nghé và một con bê . Sau đó bác bán lại cho người bạn con nghé với giá 18 triệu , để hỗ trợ bạn , bác nói : “Tôi bán cho anh lỗ mất 20% rồi đấy !!!”. Ít hôm sau ông bán con bê cho ông Ba xã bên với giá 18 triệu, bác thầm nghĩ “ bán đi con này mình lời được 20% so với giá ban đầu !!! ”. Hỏi sau khi bán 2 con bác lời hay lỗ so với số tiền bác dùng để mua 2 con?"
+    ,"Thực hiện chương trình khuyến mãi Tháng mua sắm lộc vàng, một siêu thị trong thành phố đã giảm giá cho một lô hàng quần kaki gồm 50 cái với giá bán lẻ lúc đầu 320 000đ/cái quần, một số phần trăm. Sau khi bán được 50% lô quần kaki trong hai tuần đầu của tháng, cửa hàng quyết định giảm thêm một số phần trăm như vậy cho số quần kaki còn lại, và bây giờ giá quần kaki có giá 180 000đ một cái. Do đó trong hai tuần còn lại của tháng, cửa hàng đã bán hết lô hàng quần kaki. Hỏi:"
+    ,"Tivi giá niêm yết 6100000 VNĐ, Nồi cơm điện giá niêm yết 320000 VNĐ. ⋆ Lớp TOÁN THẦY DŨNG ⋆ • Tivi khuyến mại hai đợt, đợt 1 giảm 12%, đợt 2 giảm 8%. • Nồi cơm điện chỉ giảm giá một đợt là 5%. Hỏi người mua cả hai thứ trong đợt khuyến mãi trên, phải trả bao nhiêu tiền?"
+    ,"Bạn Tùng gửi ngân hàng 10 triệu đồng với lãi suất 0;5% một tháng. Nếu bạn gửi theo định kì 1 năm và tiền lãi được dồn vào tiền vốn sau 1 kì thì sau 2 năm bạn nhận được cả vốn lẫn lãi là bao nhiêu tiền?"
+    ,"Nhà bạn Tuấn tháng trước phải sử dụng 119 kwh điện. Tính số tiền gia đình bạn Tuấn phải trả trong tháng, biết rằng giá 50 kwh đầu tính với giá 1484 đồng/1kwh, 50 kwh thứ hai có giá 1533 đồng/1kwh và 19 kwh sau tính với giá 1786 đồng/1kwh. Thuế giá trị gia tăng (VAT) 10% trên tổng số tiền trả (làm tròn đến hàng đơn vị Một người gửi ngân hàng 200 triệu đồng với lãi suất 7%/năm. Hỏi sau 5 năm người ấy có được cả gốc lẫn lãi là bao nhiêu? (Trong thời gian này không gửi thêm và cũng không rút tiền lãi– làm tròn đến đồng)"
+    ,"Một người gửi tiết kiệm ở ngân hàng với số tiền là 100 triệu với lãi suất 7;2% một năm. Sau một năm tiền lãi gộp chung vào tiền vốn. Hỏi sau 2 năm người đó được bao nhiêu tiền cả vốn lẫn lãi"
+    ,"Cho biết công thức tính số tiền gốc và tiền lãi được hưởng của ngân hàng A = x(1 +r)n. • x là số tiền gửi– Đơn vị (đồng hoặc triệu đồng). • r là lãi suất ngân hàng (tính theo %). • n là số tháng (hoặc năm) phải tính. • Alà tổng số tiền gốc và tiền lãi được hưởng (đồng hoặc triệu đồng)."
+    ,"Bão DoKsuri (bão số 10) đã đổ bộ vào đất liền nước ta, tâm bão kéo dài từ Hà Tĩnh đến Quảng Bình đã gây ra thiệt hại vô cùng lớn cho người dân nơi đây và các tỉnh lân cận. Thương người dân miền Trung, gia đình bác A đã đi vận động quyên góp được một số tiền ủng hộ cho đồng bào miền Trung, bác đến cửa hàng B tham khảo giá 1 thùng mì gói là 98000 đồng, giá 1 chai dầu ăn 1 lít là 32000 đồng, giá 1 gói bột ngọt 350 g là 23000 đồng, sau khi tính toán thì bác thấy số tiền vừa đủ 300 thùng mì, 100 chai dầu ăn và 100 gói bột ngọt. Nhưng đến ngày bác A ra cửa hàng mua thì cửa hàng có đợt khuyến mãi giảm 10% cho tất cả các sản phẩm (so với giá ban đầu bác tham khảo). Khi tính tiền, chủ cửa hàng biết bác mua để đi quyên góp cho đồng bào miền Trung đang gặp khó khăn sau bão nên chủ cửa hàng giảm thêm 5% (so với giá đã giảm lần 1). Vì thế sau khi mua xong vẫn còn dư 1 số tiền, bác quyết định chia số tiền đó thành những phần nhỏ, mỗi phần từ 200000 đồng để trao tặng thêm. Hỏi bác A có thể chia số tiền còn dư đó được nhiều nhất bao nhiêu phần?"
+    ,"Trong đợt khuyến mãi: Chào năm học mới, nhà sách A thực hiện chương trình giảm giá cho khách hàng như sau: • Khi mua tập loại 96 trang do công ty B sản xuất thì mỗi quyển tập được giảm 10% so với giá niêm yết. • Khi mua bộ I đúng 10 quyển tập loại 96 trang đóng gói sẵn hoặc bộ II đúng 20 quyển tập loại 96 trang đóng gói sẵn do công ty C sản xuất thì quyển tập bộ I được giảm 10% với giá niêm yết, còn mỗi quyển tập loại bộ II được giảm 15% so với giá niêm"
+    ,"Trong 130 con bò sữa của nhà ông Hiệp ở huyện Mộc Châu, tỉnh Sơn La có 75 con sinh sản (hiện có 42 con đang vắt sữa), còn lại là bê và bò tơ, tổng giá trị đàn bò không dưới 6 tỷ đồng, sản lượng sữa hàng ngày ông thu được khoảng 1;2 tấn bán cho nhà máy được 15 triệu đồng, tức chi phí ông Hiệp còn lãi 40% so với doanh thu. a Hỏi mỗi ngày 1 con bò vắt được khoảng bao nhiêu kg sữa? b Mỗi tháng (khoảng 30 ngày) gia đình ông Hiệp thu được tiền lãi là bao nhiêu từ sản lượng sữa bò?"
+    ,"Cửa hàng đồng giá 40000 đồng một món có chương trình giảm giá 20% cho một món hàng và nếu khách hàng mua 5 món trở lên thì từ món thứ 5 trở đi khách hàng chỉ trả 60% giá đang bán. a Tính số tiền 1 khách hàng phải trả khi mua 7 món hàng. b Nếu có khách hàng đã trả 272000 đồng thì khách hàng này đã mua bao nhiêu món hàng."
+    ,"Giá ban đầu của một cái TV là 8000000 đồng. Lần đầu giảm 5%, sau đó 2 tuần, siêu thị lại giảm thêm một lần nữa, lúc này giá cái TV chỉ còn 6840000 đồng. Hỏi ở lần 2, siêu thị đã giảm giá bao nhiêu phần trăm."
+    ,"Mộtcửahàngnhậpvềnhãnhàngmáytính xách tay với giá vốn là 4500000 đồng. Cửa hàng dự tính công bố giá niêm yết (giá bán ra) là 6000000 đồng. a Nếu bán với giá niêm yết thì cửa hàng lãi bao nhiêu phần trăm so với giá vốn? b Dểcó lãi ít nhất 5% thì cửa hàng có thể giảm giá nhiều nhất bao nhiêu phần trăm?"
+    ,"Giá niêm yết một chiết tivi sony 46 inch của một cửa hàng A là 12500000 đồng. Nhân dịp tết dương lịch 2020, cửa hàng đó khuyến mãi giảm giá 12%. Nếu mua thêm chiếc tivi thứ 3 thì giảm thêm 5% trên giá đã giảm cho chiếc tivi thứ 3."
+    ,"Giá niêm yết của 1 mặt hàng là 600000 đồng. Nếu bán mặt hàng này với giá 1 nửa giá niêm yết thì lợi nhuận 25%. Hỏi phải bán với giá bao nhiêu thì lợi nhuận 50%?"
+    ,"Cách đây 2 năm ông Nam có gửi 100000000 đồng vào ngân hàng theo là hạn 1 năm lãi kép (tiền lãi được nhập vào vốn ban đầu để tính lãi tiếp). Năm nay ông Nam nhận được số tiền là 116640000 đồng. Hỏi lãi suất ngân hàng là bao nhiêu?"
+    ,"Bà Mai vay 200000000 đồng của ngân hàng trong thời hạn 2 năm, để mở một cửa hàng sản xuất bán hàng lưu niệm. Theo hợp đồng vay vốn, lãi suất vay trong 1 năm là 10%. Sau 1 năm, tiền lãi của năm đầu sẽ được cộng vào vốn vay của năm sau."
+    ,"Ngày tổng kết năm học, tôi đã về thăm trường và gặp lại thầy chủ nhiệm lớp 9. Qua nói chuyện thầy cho biết sỉ số cuối năm giảm 1/21 so với đầu năm, toàn bộ lớp đều tham gia thi tuyển lớp 10 và kết quả có 34 học sinh đã đậu vào lớp 10 công lập đạt tỉ lệ 85%. Hãy tính sỉ số đầu năm của lớp tôi."
+    ,"Có 2 thùng dầu, thùng thứ nhất có 120 lít, thùng thứ 2 có 90 lít. Sau khi lấy ra 1 lượng dầu gấp 3 lần lượng dầu lấy ra ở thùng thứ 2, thì lượng dầu còn lại trong thùng thứ 2 gấp đôi lượng dầu còn lại trong thùng thứ nhất. Hỏi lượng dầu còn lại trong mỗi thùng?"
+    ,"Cuối học kỳ I số học sinh giỏi của lớp 9A bằng 20% số học sinh cả lớp. Đến cuối học kì II, lớp có thêm 2 bạn đạt học sinh giỏi nên HSG học kỳ II bằng 1 4 số học sinh cả lớp. Hỏi lớp 9A có bao nhiêu học sinh?"
+    ,"Tết khao giảng vừa qua lớp 9A tích cực đóng góp xây dựng bài học nên được cô giao khen thưởng 1 số viên kẹo, nếu bạn lớp trưởng chia cho mỗi bạn 5 viên kẹo thì thừa 5 viên kẹo, nếu bạn lớp trưởng chia cho mỗi bạn 6 viên kẹo thì 6 bạn không có. Hỏi lớp 9A có bao nhiêu học sinh?"
+    ,"Trong học kỳ I, tổng số học sinh của 2 lớp 8A và 8B là 80 học sinh khi khảo sát điểm thi HKI môn toán, thầy Việt được các kết quả như sau: điểm trung binh của mỗi học sinh lớp 8A là 7;2; điểm trung bình của mỗi học sinh lớp 8B là 6;8 và tổng điểm thi môn"
+    ,"Hai cửa hàng A và B đều nhập về 1 nhãn hàng tivi với giá như nhau. Cửa hàng A niêm yết sản phẩm đó với giá tăng 40% nhưng lại bán với giá giảm 20%. Cửa hàng B niêm yết sản phẩm đó với giá tăng 20% nhưng lại bán với giá giảm 5%. Biết giá niêm yết là giá bán ra mà cửa hàng đề xuất với người tiêu dùng. Theo em, chọn mua tivi từ hãng nào sẽ lợi hơn? Vì sao?"
+]
+
+labels = [
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "Lập hệ phương trình",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+    "ooo",
+]
+
+# Tiền xử lý dữ liệu văn bản
+tokenizer = Tokenizer()
+tokenizer.fit_on_texts(problems)
+sequences = tokenizer.texts_to_sequences(problems)
+max_len = max([len(seq) for seq in sequences])
+
+X_train = pad_sequences(sequences, maxlen=max_len)
+
+# Chuyển đổi nhãn sang dạng số
+label_dict = {label: i for i, label in enumerate(set(labels))}
+y_train = [label_dict[label] for label in labels]
+
+# Chia dữ liệu thành tập huấn luyện và tập validation
+X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=0.2, random_state=42)
+X_train = np.array(X_train)
+X_val = np.array(X_val)
+train_dataset = tf.data.Dataset.from_tensor_slices((X_train, y_train)).batch(32)
+val_dataset = tf.data.Dataset.from_tensor_slices((X_val, y_val)).batch(32)
+
+# Xây dựng mô hình LSTM
+model = Sequential([
+    Embedding(input_dim=len(tokenizer.word_index)+1, output_dim=100, input_length=max_len),
+    LSTM(128, return_sequences=True),
+    LSTM(64),
+    Dense(64, activation='relu'),
+    Dropout(0.5),
+    Dense(len(set(labels)), activation='softmax')  # Số lớp đầu ra tương ứng với số lớp toán
+])
+
+# Compile mô hình
+model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+# Huấn luyện mô hình với dữ liệu đã chia thành tập huấn luyện và tập validation
+model.fit(train_dataset, epochs=10, validation_data=val_dataset)
+# Chuẩn bị dữ liệu mới (ví dụ)
+new_problems = [
+    "Nhân dịp ngày Nhà giáo Việt Nam 20/11, nhà sách Tân Bình giảm giá 10% trên tổng hóa đơn và những ai có ngày sinh trong tháng 11 sẽ được giảm tiếp 5% trên giá đã giảm. a Hỏi bạn An (sinh trong tháng 11) đến mua một máy tính giá niêm yết 440 000 đ thì bạn phải trả bao nhiêu tiền? b Khi mua bộ sách “Đánh thức tài năng toán học” bạn An đã trả 513 000đ. Hỏi giá gốc của bộ sách là bao nhiêu?"]
+
+
+# Tiền xử lý dữ liệu văn bản
+new_sequences = tokenizer.texts_to_sequences(new_problems)
+new_X = pad_sequences(new_sequences, maxlen=max_len)
+
+# Dự đoán xác suất cho từng lớp
+predictions_proba = model.predict(new_X)
+
+# Lấy lớp có xác suất cao nhất cho mỗi mẫu
+predicted_labels = np.argmax(predictions_proba, axis=1)
+
+# In kết quả dự đoán
+for problem, prediction in zip(new_problems, predicted_labels):
+    predicted_label_name = [name for name, label in label_dict.items() if label == prediction][0]
+    print("Problem:", problem)
+    print("Predicted Label:", prediction, "-", predicted_label_name)
+
+
+# # Lưu mô hình và tokenizer
+# model.save("math_problem_model")
+# with open("tokenizer.pickle", "wb") as handle:
+#     pickle.dump(tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)

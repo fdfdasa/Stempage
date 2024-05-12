@@ -1,0 +1,24 @@
+{
+    "problems": [
+        "Hai lớp 9A và 9B có tổng số học sinh là 84. Trong đợt vận động mua bút ủng hộ nạn nhân chất độc màu da cam, mỗi học sinh lớp 9A mua 3 bút, mỗi học sinh lớp 9B mua 2 bút. Tính số học sinh mỗi lớp biết rằng tổng số bút hai lớp mua là 209 chiếc. ĐS: số hs lớp 9A là 41 hs, lớp 9B là 43 hs",
+        "Cuối năm học, cô Lan mua thước, compa làm phần thưởng tặng học sinh có tiến bộ trong học tập. Thước giá 3000đ/cây, compa giá 6000đ/cây. Tổng số thước và compa là 40 cây và cô Lan đã bỏ ra số tiền là 150000 để mua. Hỏi có bao nhiêu thước, bao nhiêu compa ?",
+        "Sau khi xem bảng giá, mẹ An đưa 350000 đồng nhờ An mua 1 bàn ủi, 1 bộ lau nhà. Hôm nay đúng đợt khuyến mãi, bàn ủi giảm 10%, bộ lau nhà giảm 20% nên An chỉ trả 300000 đồng. Hỏi giá tiền của bàn ủi và bộ lau nhà lúc đầu là bao nhiêu? ĐS: 200000;150000",
+        "Một hình chữ nhật có chu vi là 96m. Nếu tăng chiều rộng 3m và giảm chiều dài 4m, thì diện tích tăng 6m2. Tính diện tích của hình chữ nhật lúc đầu. ĐS: 540",
+        "Ông Ba có chín trăm triệu đồng. Ông dùng một phần số tiền này để gởi ngân hàng với lãi suất 7;5% một năm. Phần còn lại, ông góp vốn với một người bạn để kinh doanh. Sau một năm, ông thu về số tiền cả vốn và lãi từ hai nguồn trên là một tỉ hai mươi triệu đồng. Biết rằng tiền lãi khi kinh doanh bằng 25% số tiền vốn ban đầu. Hỏi ông Ba đã gởi ngân hàng bao nhiêu tiền và góp bao nhiêu tiền với người bạn để kinh doanh? ĐS: 600;300",
+        "Cuối học kì I, số học sinh giỏi của lớp 9A bằng 20% số học sinh cả lớp. Đến cuối học kì II, lớp có thêm 2 bạn đạt học sinh giỏi nên số học sinh giỏi ở học kì II bằng 25% số học sinh cả lớp. Hỏi lớp 9A có bao nhiêu học sinh?",
+        "Năm ngoái dân số hai tỉnh A và B tổng cộng là 3 triệu người. Theo thống kê thì năm nay tỉnh A tăng 2% còn tỉnh B tăng 1;8% nên tổng số dân tăng thêm của cả hai tỉnh là 0,0566 triệu người. Hỏi năm ngoái mỗi tỉnh dân số là bao nhiêu? MATH.ND ĐS: 40",
+        "Một siêu thị A có các mặt hàng giày dép đồng giá, các mặt hàng quần áo đồng giá. Tổng giá tiền niêm yết của một đôi giày và một bộ quần áo là 850 000 đồng. Biết giá tiền niêm yết của 2 bộ quần áo ít hơn giá tiền niêm yết của 3 đôi giày là 50 000 đồng. a) Hỏi giá tiền niêm yết của một bộ quần áo, một đôi giày là bao nhiêu? b) Nhân dịp ngày Quốc tế Phụ nữ 8/3, siêu thị A đã mở ra chương trình khuyến mãi như sau: Các mặt hàng giày dép được giảm 20% (so với giá niêm yết), các mặt hàng quần áo được giảm 25% (so với giá niêm yết); ngoài ra nếu khách hàng mua hàng có hóa đơn từ 2 000 000 đồng trở lên sẽ được giảm tiếp 10% so với giá tiền đã mua. Trong dịp này, một người đã mua 5 bộ quần áo và 3 đôi giày. Hỏi người đó đã trả bao nhiêu tiền ? ĐS: 350000;500000;2443500",
+        "Trường Trung học cơ sở A và Trường Trung học cơ sở B có tổng cộng 810 học sinh thi đậu vào lớp 10 THPT Công lập, đạt tỉ lệ trúng tuyển là 90%. Nếu tính riêng từng trường thì trường A có tỉ lệ thí sinh thi đậu là 92%, trường B có tỉ lệ thí sinh thi đậu là 88%. Hỏi mỗi trường có bao nhiêu thí sinh dự thi?"
+    ],
+    "labels": [
+        "Lập hệ phương trình",
+        "Lập hệ phương trình",
+        "Lập hệ phương trình",
+        "Lập hệ phương trình",
+        "Lập hệ phương trình",
+        "Lập hệ phương trình",
+        "Lập hệ phương trình",
+        "Lập hệ phương trình",
+        "Lập hệ phương trình"
+    ]
+}
